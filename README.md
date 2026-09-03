@@ -12,7 +12,7 @@ I am now transitioning these existing technical and analytical skills into a car
 
 ---
 
-## 🛡️ Cybersecurity
+## Cybersecurity
 
 I'm currently developing practical knowledge across a range of cybersecurity areas, including:
 
@@ -34,7 +34,7 @@ I am particularly interested in understanding how vulnerabilities are identified
 
 ---
 
-## 🧪 Practical Learning
+## Practical Learning
 
 I use practical platforms and exercises to develop my technical skills alongside my formal studies.
 
@@ -56,7 +56,7 @@ My TryHackMe work will be documented here as I progress, including lessons learn
 
 ---
 
-## 📚 Cybersecurity Coursework
+## Cybersecurity Coursework
 
 My current cybersecurity studies have covered areas including:
 
@@ -98,7 +98,7 @@ My current cybersecurity studies have covered areas including:
 
 ---
 
-## 🔎 Projects & Investigations
+## Projects & Investigations
 
 I am building a collection of practical cybersecurity projects and investigations to demonstrate my development and understanding.
 
@@ -117,7 +117,7 @@ Each project will document the objective, methodology, findings, analysis and le
 
 ---
 
-## 💻 Technical Experience
+## Technical Experience
 
 Before moving into cybersecurity, I developed extensive experience working with business systems and technology.
 
@@ -139,7 +139,7 @@ These experiences have helped develop my analytical thinking, troubleshooting an
 
 ---
 
-## 💼 Professional Experience
+## Professional Experience
 
 I have over 15 years of experience across:
 
@@ -160,7 +160,7 @@ I believe this experience gives me a useful perspective when approaching cyberse
 
 ---
 
-## 🎓 Qualifications & Professional Development
+## Qualifications & Professional Development
 
 ### Current
 
@@ -191,7 +191,7 @@ Course Gate — Distinction
 
 ---
 
-## 🎮 Interests
+## Interests
 
 Outside of cybersecurity, I have a long-standing interest in:
 
@@ -206,7 +206,7 @@ Outside of cybersecurity, I have a long-standing interest in:
 
 ---
 
-## 🚀 Current Goals
+## Current Goals
 
 My current goal is to transition my existing professional and technical experience into a career within Cybersecurity.
 
@@ -219,12 +219,6 @@ I'm particularly interested in developing practical experience in:
 - Incident Response
 
 This portfolio will document that journey and the practical skills I develop along the way.
-
----
-
-## 📈 Learning Philosophy
-
-I'm a strong believer in learning by doing.
 
 Rather than only documenting qualifications, this portfolio is intended to show the practical work behind them — what I have investigated, what I have learned, the problems I encountered and how I approached solving them.
 
