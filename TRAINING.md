@@ -22,8 +22,6 @@ The course covers areas including:
 - Ethical conduct
 - Vulnerability management
 
-[View coursework](coursework/)
-
 ## Practical Training
 
 ### TryHackMe
