@@ -1,283 +1,222 @@
-# Cybersecurity Portfolio
+# Daniel Hughes
 
-### Aspiring Cybersecurity Professional | Cybersecurity Student | Technical Problem Solver
+Aspiring Cybersecurity Professional | Cybersecurity Student | Technical Problem Solver
 
-I'm an aspiring IT and Cybersecurity professional currently studying the **NCFE Level 3 Certificate in Cyber Security Practices**, with plans to progress to **CompTIA Security+** after completing my current studies.
+## Start Here
 
-I have over 15 years of professional experience across operations, logistics, retail, procurement and business systems. Throughout my career I have developed strong analytical and problem-solving skills, often investigating technical and operational problems, analysing data and working with IT support to identify and resolve issues.
+I am transitioning into cybersecurity after more than 15 years of experience across operations, logistics, business systems and customer service.
 
-My previous experience has included maintaining digital stock systems, investigating software faults, analysing data integrity issues, maintaining website content, reproducing software problems and identifying root causes, as well as building and upgrading custom PCs.
+My current development combines formal cybersecurity study with practical technical learning, including vulnerability assessment, security monitoring, Active Directory, networking, web application security and reconnaissance.
 
-I am now applying these existing technical and analytical skills to cybersecurity and building practical experience through formal study, hands-on labs and independent research.
+### Key Areas
 
----
+- Vulnerability Assessment & Vulnerability Management
+- Security Monitoring & SIEM
+- Active Directory & Authentication
+- Networking & Network Security
+- Web Application Security
+- Threat Intelligence & OSINT
+- Incident Response Fundamentals
+- Cybersecurity Frameworks & Legislation
 
-## Cybersecurity
+### Practical Work
 
-I am developing practical knowledge across a range of cybersecurity areas, including:
+- [Vulnerability Assessment](reports/)
+- [Security Monitoring](reports/)
+- [Active Directory Security](reports/)
+- [Web Application Security](reports/)
+- [Reconnaissance & OSINT](reports/)
 
-- Vulnerability Assessment
-- Vulnerability Management
-- Threat Intelligence
-- OSINT
-- Network Security
-- Security Testing
-- Penetration Testing
-- Security Monitoring
-- Incident Response
-- Digital Forensics
-- Cybersecurity Frameworks
-- Governance, Risk and Compliance
-- Social Engineering
-- Cybersecurity Legislation
+*Project links will be added as individual assessments and reports are completed.*
 
-I am particularly interested in understanding how vulnerabilities are identified, investigated and mitigated, how security events can be detected and analysed, and how organisations can improve their overall security posture.
+## About Me
 
----
+I am currently studying the **NCFE Level 3 Certificate in Cyber Security Practices** while building practical cybersecurity experience through hands-on training, security tools and independent research.
 
-## Practical Learning
+My previous career has given me more than 15 years of experience in operations, logistics, business systems and customer service. During this time I developed strong skills in problem solving, investigation, data analysis, troubleshooting and working with digital business systems.
 
-I use practical platforms and exercises alongside my formal studies to develop hands-on technical skills.
+I have regularly investigated data discrepancies and software issues, worked with IT support to reproduce problems and provide technical evidence, and used digital systems to identify and resolve operational issues.
 
-### TryHackMe
+I am now applying these existing analytical and problem-solving skills to cybersecurity and building toward a long-term career in the industry.
 
-I use TryHackMe to develop practical skills across areas including:
+## Core Skills
 
-- Networking
-- Linux
-- Windows
-- Security Operations
-- Vulnerability Assessment
-- Security Analysis
-- Cybersecurity Fundamentals
-- AI Security
+### Cybersecurity
 
-My TryHackMe work will be documented here as I progress, focusing on the skills developed, techniques used, lessons learned and practical challenges encountered.
+- Vulnerability assessment
+- Threat intelligence
+- OSINT and reconnaissance
+- Security monitoring
+- Incident response fundamentals
+- Web application security
+- Vulnerability management
+- Security frameworks
+- Cybersecurity legislation and ethical practice
 
-### Hack The Box
+### Systems & Networking
 
-I am also developing practical skills through Hack The Box and will document relevant learning and investigations as my experience develops.
+- Windows administration
+- Linux command line
+- Active Directory
+- NTLM and Kerberos
+- Windows Event Logs
+- Authentication and authorisation
+- Networking fundamentals
+- Common network protocols and ports
+- HTTP and web technologies
 
----
+### Analysis & Investigation
+
+- Root-cause analysis
+- Data investigation and reconciliation
+- Log analysis
+- Baseline analysis
+- Anomaly identification
+- Vulnerability research
+- Technical documentation
 
 ## Security Tools & Technologies
 
-My current practical experience and learning includes:
-
-- **Nessus** — vulnerability scanning and findings analysis
-- **Wireshark** — network traffic and packet analysis
-- **Shodan** — public-facing infrastructure reconnaissance
-- **VirusTotal** — analysis of files, URLs, domains and hashes
-- **CyberChef** — data encoding, decoding and transformation
-- **Splunk** — SIEM concepts, log analysis and security event investigation
-- **Active Directory** — authentication, auditing and security monitoring
-- **CVE resources** — vulnerability research and analysis
-- **GitHub** — security research, proof-of-concept analysis and security tooling
-- **Windows Command Prompt**
-- **Linux Terminal**
-
----
-
-## Cybersecurity Coursework
-
-My current studies have covered a broad range of cybersecurity topics.
-
-### Security Frameworks & Standards
-
-- NIST Cybersecurity Framework
-- NCSC Cyber Security 10 Steps
-- CIS Controls
-- ISO/IEC 27001 and related standards
-- GDPR and cybersecurity
-- Cybersecurity governance and risk management
-
-### Security Testing
-
-- Vulnerability Scanning
-- Vulnerability Assessment
-- Penetration Testing
-- Red Team Testing
-- Social Engineering Testing
-- Network Security Testing
-
-### Threat Intelligence & OSINT
-
-- Threat Intelligence Lifecycle
-- Open Source Intelligence
-- Intelligence collection and analysis
-- Threat identification
-- Security investigations
-- Reconnaissance
-
-### Security Monitoring & Active Directory
-
-- SIEM concepts
+- Nessus
+- Wireshark
 - Splunk
-- Windows Security Events
-- Authentication monitoring
-- Audit policies
 - Active Directory
-- NTLM
-- Kerberos
-- Security baselining
-- Anomaly identification
+- Shodan
+- VirusTotal
+- CyberChef
+- CVE resources
+- GitHub
+- Windows Command Prompt
+- Linux terminal
 
-### Web & Application Security
+## Learning & Training
 
-- HTTP requests and responses
+My [learning record](LEARNING.md) contains my formal coursework, practical training and cybersecurity research.
+
+This includes:
+
+- NCFE Level 3 Certificate in Cyber Security Practices
+- TryHackMe practical training
+- Wireshark training
+- Nessus vulnerability scanning
+- Splunk security monitoring
+- Active Directory investigation
+- CyberChef data analysis
+- Networking and security fundamentals
+- Threat intelligence and OSINT
 - Web application security
-- SQL injection
-- Frontend and backend concepts
-- Application security
+- Cybersecurity frameworks
+- UK cybersecurity legislation
+- Cryptography
+- Incident response
 
-### Cybersecurity Concepts
+## Security Foundations
+
+[FOUNDATIONS.md](FOUNDATIONS.md) provides a consolidated overview of my cybersecurity knowledge and understanding across key security domains.
+
+Topics include:
 
 - Threats and vulnerabilities
-- Good and bad actors
-- Ethical and unethical conduct
-- Cybersecurity legislation
-- Security controls
+- Access control and identity
+- Defensive security
+- Offensive security
+- Networking and secure protocols
+- Security monitoring
+- Vulnerability management
+- Web application security
+- Threat intelligence and OSINT
+- Cybersecurity frameworks
+- Legal, ethical and regulatory considerations
 - Incident response
-- Cyber Kill Chain
-- Continuous Professional Development
+- Cryptography
 
----
+## Security Assessment Reports
 
-## Projects & Investigations
+The [reports](reports/) section contains structured assessments and investigations based on practical cybersecurity work.
 
-I am building a collection of practical cybersecurity projects, investigations and case studies to demonstrate my development and understanding.
+Reports are documented using a professional assessment format where appropriate, including:
 
-Current and planned projects include:
+- Objective
+- Scope
+- Methodology
+- Tools
+- Findings
+- Risk and impact
+- Recommendations
+- Lessons learned
 
-- Vulnerability Assessment with Nessus
-- Network Analysis with Wireshark
-- Security Monitoring and SIEM Analysis
-- Active Directory Monitoring
-- OSINT Investigations
-- Threat Intelligence Investigations
-- Web Application Security
-- Vulnerability Management
-- Cyber Incident Analysis
-- Cybersecurity Framework Comparisons
-- Cybersecurity Case Studies
-- Practical Security Testing Exercises
+All practical security testing is conducted within authorised or controlled environments.
 
-Each project will document the objective, scope, methodology, tools used, findings, analysis, recommendations and lessons learned where appropriate.
+## Write-ups
 
-All practical security testing is carried out within authorised or controlled environments.
+The [write-ups](writeups/) section contains shorter accounts of practical cybersecurity challenges and investigations.
 
----
+These focus on:
 
-## Technical Experience
+- The problem being investigated
+- The approach taken
+- Problems and failed approaches
+- What worked and why
+- The security lesson or finding
 
-Before moving into cybersecurity, I developed extensive experience working with business systems and technology.
-
-Some of my previous technical experience includes:
-
-- Investigating faults within bespoke business software
-- Analysing historical transactions to identify root causes
-- Reproducing software bugs and providing technical evidence to IT support
-- Maintaining digital stock management systems
-- Extensive Microsoft Excel and data analysis
-- Investigating data integrity issues
-- Maintaining website and online product listings
-- Performing digital stock audits and reconciliation
-- Building and upgrading custom desktop PCs
-- Windows installation and configuration
-- BIOS configuration
-- Hardware troubleshooting
-
-These experiences have helped develop my analytical thinking, troubleshooting and problem-solving approach.
-
----
+The aim is to demonstrate problem solving and reasoning rather than simply documenting commands or solutions.
 
 ## Professional Experience
 
-I have over 15 years of professional experience across:
+Before moving into cybersecurity, I spent more than 15 years working across operations, logistics, retail and business systems.
 
-- Operations Management
-- Logistics
-- Warehousing
-- Retail
-- Procurement
-- Business Systems
-- Data Analysis
-- Customer Service
-- Leadership
-- Process Improvement
+My previous experience includes:
 
-I've managed inventory valued in the millions of pounds, supported multiple retail locations and managed teams of up to eight people.
+- Investigating software faults and data discrepancies
+- Working alongside IT support to reproduce and resolve system issues
+- Managing digital stock control systems and large datasets
+- Root-cause analysis and problem solving
+- Data reconciliation and integrity investigation
+- Website and online product management
+- Team leadership and operational management
+- Customer and supplier support
 
-I believe this experience gives me a useful perspective when approaching cybersecurity because security is not only about technology — it also involves people, processes, risk and business operations.
-
----
+These skills provide a strong foundation for analytical and investigative work within cybersecurity.
 
 ## Qualifications & Professional Development
 
 ### Current
 
 **NCFE Level 3 Certificate in Cyber Security Practices**  
-*In Progress*
+In Progress
 
 ### Planned
 
-- **CompTIA Security+**
-- **CompTIA Network+**
-
-### Additional Professional Development
-
-- **Foundations of Governance, Risk, and Compliance** — Coursera
-- **Foundations of Project Management** — Coursera
-- **Effective Communication Skills** — Coursera
+**CompTIA Security+**
 
 ### Previous Qualifications
 
-**OCR Level 2 Certificate/Diploma in iMedia**
+- OCR Level 2 Certificate for iMedia Users
+- Advanced Diploma in Health & Safety – Distinction
+- City & Guilds Level 2 Key Skills in Application of Number
 
-Including:
+Further details are available in [Certifications](certifications/README.md).
 
-- Digital Graphics
-- 2D Game Engines
-- Digital Animation
-- Interactive Multimedia Concepts
-- Game Design
+## Current Development
 
-**Advanced Diploma in Health & Safety**  
-Course Gate — Distinction
+I am currently focused on:
 
-**City & Guilds Level 2 Key Skills in Application of Number**
-
----
+- Completing the NCFE Level 3 Certificate in Cyber Security Practices
+- Building practical cybersecurity portfolio projects
+- Developing vulnerability assessment skills
+- Developing security monitoring and SIEM skills
+- Expanding networking knowledge
+- Continuing hands-on security training
+- Preparing for CompTIA Security+
 
 ## Interests
 
-Outside of cybersecurity, I have a long-standing interest in:
+Technology • Cybersecurity • Artificial Intelligence • PC Hardware • Gaming • Digital Media • Golf • Tabletop RPG
 
-- Technology
-- Cybersecurity
-- Artificial Intelligence
-- PC Hardware
-- Gaming
-- Digital Media
-- Tabletop RPG Design
-- Golf
+## Contact
 
----
+**LinkedIn:**  
+https://www.linkedin.com/in/daniel-s-hughes/
 
-## Current Goals
-
-My current goal is to transition my existing professional and technical experience into a career within IT and Cybersecurity.
-
-I am particularly interested in developing practical experience in:
-
-- Security Operations
-- Vulnerability Assessment
-- Threat Intelligence
-- Digital Forensics
-- Incident Response
-
-My longer-term goal is to build a career in cybersecurity while continuing to develop both technical and analytical skills.
-
-This portfolio is intended to document the practical work behind my qualifications — what I have investigated, what I have learned, the problems I encountered and how I approached solving them.
-
-It will continue to grow as I develop my cybersecurity skills and complete new projects, coursework and practical exercises.
+**GitHub:**  
+https://github.com/Badegg48/Cybersecurity-portfolio
