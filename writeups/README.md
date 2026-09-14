@@ -1,7 +1,21 @@
 # Write-ups
 
-Short, structured accounts of cybersecurity challenges, investigations and practical exercises.
+Short, structured accounts of challenges I solved myself. The point of this
+folder is to show *reasoning*, which a completion count cannot: what I was
+faced with, what I tried, what failed, what worked, and the underlying security
+lesson.
 
-The purpose of these write-ups is to demonstrate my reasoning, methodology, problem solving and understanding of the underlying security concepts.
+The file names are the room names, so they say nothing about what is inside.
+The index below is generated from each write-up's own header, so it stays
+accurate.
 
-## Write-ups
+## Index
+
+<!--INDEX:START-->
+
+### Web Application
+
+| Write-up | Focus | Difficulty | Date |
+| --- | --- | --- | --- |
+
+<!--INDEX:END-->
