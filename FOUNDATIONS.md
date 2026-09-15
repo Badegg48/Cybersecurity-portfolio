@@ -1,482 +1,130 @@
 # Security Foundations
 
-This document provides a consolidated overview of my understanding of core cybersecurity concepts developed through formal study, practical training and independent learning.
+This is my personal cybersecurity knowledge base, covering the concepts and
+security practices I have developed through the NCFE Level 3 Certificate in
+Cyber Security Practices, practical training and independent study.
 
-It focuses on the principles, technologies, processes and security practices that underpin my practical work and ongoing development.
+I use this as a reference for things I have learned and want to retain, but
+also as a way of documenting how my understanding has developed through
+practical work.
 
-## Domains at a Glance
+My main career interest is incident response, cybersecurity investigation,
+digital forensics and security monitoring, while continuing to build a broad
+foundation across vulnerability management, networking, threat intelligence,
+security testing and governance.
 
-| Domain | Areas Covered |
+## Domains at a glance
+
+| Domain | What I understand / can apply |
 |---|---|
-| Threats & Vulnerabilities | Threat actors, vulnerabilities, attack methods, risk |
-| Access Control & Identity | Authentication, authorisation, Active Directory, NTLM, Kerberos |
-| Defensive Security | Security controls, hardening, monitoring, malware defence |
-| Offensive Security | Vulnerability assessment, penetration testing, reconnaissance, red teaming |
-| Networking & Secure Protocols | OSI/TCP-IP, protocols, ports, network security |
-| Security Monitoring | SIEM, logging, Windows Event IDs, baselines, anomaly detection |
-| Vulnerability Management | Identification, assessment, prioritisation, remediation |
-| Web Application Security | HTTP, application security, SQL injection, frontend/backend |
-| Threat Intelligence & OSINT | Intelligence lifecycle, reconnaissance, information analysis |
-| Cybersecurity Frameworks | NIST, NCSC, CIS, ISO |
-| Legal, Ethical & Regulatory | UK legislation, GDPR, ethical conduct, authorisation |
-| Incident Response | Incident lifecycle, investigation, containment and recovery |
-| Cryptography | Encoding, hashing, encryption and data protection |
+| Incident Response | Understand the incident lifecycle, investigation, containment, recovery and post-incident review |
+| Security Monitoring | Use SIEM concepts, logs, Event IDs, baselines and anomaly analysis to investigate activity |
+| Digital Forensics | Understand the role of digital evidence, artefacts, integrity and investigative documentation |
+| Threat Intelligence & OSINT | Gather information, distinguish information from intelligence and use findings to understand threats |
+| Vulnerability Management | Identify, assess, prioritise and investigate vulnerabilities and consider remediation |
+| Active Directory & Identity | Understand authentication, authorisation, Active Directory, NTLM and Kerberos |
+| Networking | Understand OSI/TCP-IP, protocols, ports and how network activity can be investigated |
+| Web Security | Understand HTTP, web applications and common application security weaknesses |
+| Security Testing | Understand reconnaissance, vulnerability assessment, penetration testing and the importance of scope |
+| Governance & Risk | Understand the role of frameworks, standards, risk, legislation and security controls |
+| Security Reporting | Produce structured security documentation and understand the importance of evidence, timelines and clear recommendations |
 
----
+## 1. Incident Response
 
-# Threats & Vulnerabilities
+Incident response is the area I am currently most interested in developing. I have studied the incident lifecycle from preparation and detection through containment, eradication, recovery and lessons learned. One thing that stood out to me is that incident response is not simply about removing the immediate threat; the organisation also needs to understand what happened, how it was detected, how well the response worked and what needs to change afterwards.
 
-Cybersecurity threats are potential events or actions that could cause harm to systems, networks, data or organisations.
+I have also looked at the difference between **incident precursors** and **incident indicators**. A precursor is something that suggests an incident may happen, such as a newly disclosed vulnerability or exploit announcement, while an indicator provides evidence that an attack may already be underway.
 
-Threat actors can include individuals, organised criminal groups, insiders, hacktivists and other groups with different capabilities and motivations.
+My coursework has included a phishing incident exercise where I worked through the incident from initial reporting through investigation, response, recovery, timeline and lessons learned. I want to build on this with more practical investigation and digital forensics work.
 
-A vulnerability is a weakness that could be exploited by a threat actor. Vulnerabilities can exist in software, configurations, networks, human behaviour or physical environments.
+## 2. Security Monitoring
 
-Common vulnerability categories include:
+My work with security monitoring has helped me understand that a security analyst is not simply looking for one "bad" log entry. The useful information often comes from putting several events together and understanding what normal activity looks like first.
 
-- Software vulnerabilities
-- Configuration vulnerabilities
-- Network vulnerabilities
-- Human vulnerabilities
-- Physical vulnerabilities
+I have worked with SIEM concepts and Splunk, including Windows security events, authentication activity, audit logging, baselines and anomaly identification. The process I use to think about SIEM is:
 
-Examples of vulnerabilities include insecure software, outdated systems, weak passwords, excessive permissions, exposed services, poor network segmentation and insecure configurations.
+**Collect → Parse → Normalise → Correlate → Detect → Alert → Investigate**
 
-Vulnerability management involves identifying vulnerabilities, assessing their risk, prioritising them and taking appropriate action to reduce or remove the risk.
+The biggest lesson for me has been that an unusual event is not automatically an attack. It needs to be investigated in context, which is where baselines, correlation and knowledge of the environment become important.
 
----
+## 3. Digital Forensics
 
-# Access Control & Identity
+Digital forensics is an area I am particularly interested in moving towards, although I am still building my practical experience.
 
-Access control is used to ensure that users and systems can only access the resources they are authorised to use.
+The main principle I have taken from my studies is that an investigation needs to be **evidence-led**. Logs, files, metadata, authentication records, network traffic and other digital artefacts can help establish what happened, when it happened and which systems may have been affected.
 
-Authentication is the process of establishing who or what an entity is.
+I have also learned that finding an interesting artefact is only part of an investigation. Evidence needs to be considered in context, documented properly and distinguished from assumptions or conclusions. Maintaining evidence integrity and being able to explain how a finding was reached are just as important.
 
-Authorisation determines what an authenticated user or system is permitted to access or do.
+## 4. Threat Intelligence & OSINT
 
-These are separate processes. A user may successfully authenticate but still not have authorisation to access a particular resource.
+I have learned to distinguish between **open-source information** and **intelligence**. Open-source information is what can be collected from publicly available sources, while intelligence comes from analysing that information to answer a question or support a decision.
 
-## Active Directory
-
-Active Directory provides identity and access management within Windows environments.
-
-It can manage users, computers, groups and permissions and supports authentication across a domain environment.
-
-Important areas include:
-
-- User and computer accounts
-- Security groups
-- Group policies
-- Authentication
-- Authorisation
-- Audit policies
-- Windows security events
-
-## NTLM & Kerberos
-
-NTLM and Kerberos are authentication protocols used within Windows environments.
-
-Kerberos is commonly used for authentication within Active Directory domain environments, while NTLM is an older authentication protocol that may still be present for compatibility or legacy systems.
-
-Understanding authentication activity and the protocols involved can help identify unusual or potentially suspicious behaviour.
-
----
-
-# Defensive Security
-
-Defensive security focuses on protecting systems, networks, users and information against threats.
-
-Defensive measures can include:
-
-- Access controls
-- Secure configuration
-- Network segmentation
-- Firewalls
-- Antivirus and malware defences
-- Security monitoring
-- Logging and auditing
-- Vulnerability management
-- Data protection
-- Backups and recovery
-- Security awareness training
-
-Effective defence involves multiple layers rather than relying on a single security control.
-
-Security controls should also be reviewed and updated as threats, vulnerabilities and technology change.
-
----
-
-# Offensive Security
-
-Offensive security involves authorised security testing designed to identify weaknesses before malicious actors can exploit them.
-
-## Reconnaissance
-
-Reconnaissance is the process of gathering information about a target.
-
-It can involve identifying:
-
-- Infrastructure
-- Technologies
-- Services
-- Domains
-- Employees and organisational information
-- Exposed systems
-- Business processes
-
-Reconnaissance can be passive or active.
-
-Passive reconnaissance uses information obtained without directly interacting with the target, while active reconnaissance involves interacting with the target environment.
-
-## Vulnerability Assessment
-
-Vulnerability assessment involves identifying vulnerabilities within systems and assessing their potential risk.
-
-Tools such as Nessus can be used to scan systems and identify known vulnerabilities and configuration issues.
-
-The results then need to be reviewed and interpreted rather than simply accepted without analysis.
-
-## Penetration Testing
-
-Penetration testing is an authorised attempt to identify and exploit security weaknesses in order to determine their potential impact.
-
-Unlike a basic vulnerability scan, penetration testing can involve manually validating vulnerabilities and demonstrating how weaknesses could be exploited.
-
-## Red Teaming
-
-Red teaming involves simulating realistic attacks against an organisation to test its people, processes and technology.
-
-A red team exercise can assess not only whether vulnerabilities exist, but whether an organisation can detect and respond to an attack.
-
-All offensive security activity must have appropriate authorisation and clearly defined boundaries.
-
----
-
-# Networking & Secure Protocols
-
-Understanding networking is important because many cybersecurity events involve communication between systems.
-
-The OSI model provides a conceptual framework for understanding network communication, while the TCP/IP model is commonly used to describe practical network communications.
-
-Important networking concepts include:
-
-- IP addresses
-- MAC addresses
-- Ports
-- Protocols
-- TCP and UDP
-- DNS
-- HTTP and HTTPS
-- SSH
-- FTP
-- SMTP
-- Network segmentation
-- Firewalls
-- Secure communications
-
-Insecure or outdated protocols can introduce security risks. Network security therefore includes protecting communications, limiting unnecessary exposure and controlling which systems can communicate with each other.
-
----
-
-# Security Monitoring
-
-Security monitoring involves collecting and analysing information from systems and networks to identify suspicious or abnormal activity.
-
-## Logging
-
-Logs provide records of activity within systems and applications.
-
-Windows security logs can contain information relating to:
-
-- Authentication
-- Account activity
-- Security policy changes
-- Group membership
-- System activity
-- Other security-related events
-
-Understanding relevant Windows Event IDs can help analysts investigate activity and identify potential security incidents.
-
-## SIEM
-
-A Security Information and Event Management (SIEM) system collects and correlates security information from multiple sources.
-
-Splunk can be used to search, analyse and correlate security events.
-
-Security monitoring can involve establishing a baseline of normal activity and looking for deviations from that baseline.
-
-An unusual event does not automatically mean that an attack has occurred. It needs to be investigated within the wider context of the environment.
-
----
-
-# Vulnerability Management
-
-Vulnerability management is an ongoing process rather than a single scan.
-
-A typical process includes:
-
-1. Identify assets
-2. Identify vulnerabilities
-3. Assess risk
-4. Prioritise vulnerabilities
-5. Remediate or mitigate
-6. Verify the remediation
-7. Continue monitoring
-
-Risk prioritisation helps organisations focus resources on vulnerabilities that present the greatest potential risk.
-
-Vulnerability information can be researched using resources such as the Common Vulnerabilities and Exposures (CVE) database.
-
----
-
-# Web Application Security
-
-Web applications commonly consist of frontend components, backend application logic, databases and supporting infrastructure.
-
-## HTTP
-
-HTTP is used for communication between web clients and servers.
-
-Requests can contain:
-
-- Methods
-- Headers
-- Parameters
-- Cookies
-- Request bodies
-
-Servers return HTTP responses containing status codes, headers and response content.
-
-Understanding HTTP requests and responses is important when investigating web application security.
-
-## SQL Injection
-
-SQL injection occurs when untrusted input is incorporated into SQL queries in an unsafe way, potentially allowing an attacker to manipulate database queries.
-
-Types of SQL injection can include:
-
-- In-band injection
-- Error-based injection
-- Union-based injection
-- Boolean-based blind injection
-- Time-based blind injection
-- Out-of-band injection
-- Second-order injection
-
-Web application security testing should be performed only within authorised or controlled environments.
-
----
-
-# Threat Intelligence & OSINT
-
-Threat intelligence involves collecting and analysing information about threats so that it can support security decisions.
-
-A threat intelligence process can involve:
+The threat intelligence process I have been taught is:
 
 **Collect → Analyse → Understand the threat → Protect the organisation**
 
-Open Source Intelligence (OSINT) involves gathering information from publicly available sources and analysing it to produce useful intelligence.
+I have worked with OSINT and reconnaissance during my practical learning, using publicly available information to understand targets, technologies and potential security exposure. The main lesson I have taken from this is that collecting large amounts of information is not particularly useful on its own; the analysis and context are what turn information into intelligence.
 
-Open-source information can come from sources such as:
+## 5. Vulnerability Management
 
-- Websites
-- Newspapers
-- Public databases
-- Social media
-- Satellite imagery
-- Radio broadcasts
-- Public technical information
+My practical vulnerability work has mainly involved Nessus, but I have found that vulnerability management is much broader than running a scan.
 
-The intelligence stage involves analysing the information to answer questions and identify useful findings rather than simply collecting information.
+The process is better thought of as:
 
----
+**Identify → Assess → Prioritise → Remediate → Verify → Monitor**
 
-# Cyber Kill Chain
+A scanner can identify a vulnerability, but somebody still needs to understand what it means, how serious it is in context, what the business impact could be and what needs to happen next. I have also used CVE resources when researching known vulnerabilities.
 
-The Cyber Kill Chain describes stages that can occur during a cyber attack.
+One thing I have found particularly useful is understanding that technical severity and business risk are not always the same thing. A finding needs to be considered in the context of the affected asset, potential impact, exploitability and the wider environment.
 
-1. Reconnaissance
-2. Weaponization
-3. Delivery
-4. Exploitation
-5. Installation
-6. Command & Control
-7. Actions on Objectives
+## 6. Active Directory & Identity
 
-Understanding the stages of an attack can help defenders identify where security controls or monitoring could disrupt an attacker.
+I have studied the difference between **authentication** and **authorisation**, along with Active Directory, NTLM and Kerberos.
 
----
+What has made this particularly useful is connecting identity concepts with security monitoring. Authentication activity, account changes, group membership and Windows security events can provide useful information during an investigation.
 
-# Cybersecurity Frameworks
+I have used this knowledge alongside Splunk-based monitoring exercises, looking at authentication behaviour and Windows security events. It has helped me understand why identity is such an important part of investigating suspicious activity rather than treating a login as an isolated event.
 
-Cybersecurity frameworks provide organisations with structured approaches to managing cybersecurity risk and security activities.
+## 7. Networking
 
-## NIST Cybersecurity Framework
+Networking has become increasingly important to my cybersecurity learning because network activity can provide both an attack surface and evidence during an investigation.
 
-The NIST Cybersecurity Framework provides a risk-management structure based around:
+I have studied the OSI and TCP/IP models, TCP and UDP, ports and common protocols including DNS, HTTP/HTTPS, SSH, FTP and SMTP. I have also completed Wireshark training, which helped connect the theory to actual network traffic.
 
-- Identify
-- Protect
-- Detect
-- Respond
-- Recover
+One of the more useful things I have taken from this is being able to look at network communication as something that can be investigated. Understanding what a protocol normally does makes unusual traffic much easier to recognise.
 
-It can help organisations understand and manage cybersecurity risk.
+## 8. Web Security
 
-## NCSC 10 Steps
+I have studied how web applications are structured across frontend components, backend application logic, databases and supporting infrastructure.
 
-The NCSC 10 Steps to Cyber Security provides broad cybersecurity guidance covering areas such as:
+A lot of my understanding comes from learning how HTTP actually works. Requests contain things such as methods, headers, parameters, cookies and request bodies, while responses contain status codes, headers and returned content. Understanding that interaction makes it easier to understand where application security weaknesses can occur.
 
-- Risk management
-- User education and awareness
-- Asset management
-- Secure architecture and configuration
-- Vulnerability management
-- Identity and access management
-- Data security
-- Logging and monitoring
-- Incident management
-- Supply chain security
+I have also studied SQL injection and its different forms in controlled learning environments. The main lesson I have taken from this is that application security is often about how trusted backend systems process input supplied by users.
 
-## CIS Controls
+## 9. Security Testing
 
-The CIS Controls provide prioritised security safeguards that organisations can implement to improve their security.
+My course has introduced me to several forms of security testing, including reconnaissance, vulnerability testing, penetration testing, red teaming and social engineering testing.
 
-The framework contains 18 controls covering areas including:
+The common principle across all of them is **authorisation and scope**. Having the ability to run a scan or test a system does not mean I am entitled to do so. Testing needs to be conducted against agreed targets and within defined boundaries.
 
-- Asset management
-- Software management
-- Data protection
-- Secure configuration
-- Account management
-- Access control
-- Vulnerability management
-- Logging
-- Malware defence
-- Data recovery
-- Network security
-- Security awareness
-- Incident response
-- Penetration testing
+I have applied this through controlled practical learning, including Nessus vulnerability scanning, reconnaissance with Shodan and security exercises through TryHackMe. I have also studied web application security and SQL injection in controlled environments. The main thing I have learned is that tools provide information, but the analyst still needs to interpret what the results actually mean.
 
-The CIS Controls also use Implementation Groups to help organisations prioritise safeguards according to their size, resources and risk profile.
+## 10. Governance & Risk
 
-## ISO Standards
+I have studied cybersecurity frameworks, standards, legislation and the role they play in managing security risk.
 
-ISO/IEC 27001 provides a framework for an Information Security Management System (ISMS).
+The main frameworks I have looked at are the **NIST Cybersecurity Framework, NCSC 10 Steps and CIS Controls**. I see them as different approaches rather than competing answers: NCSC provides broad UK-focused guidance, NIST provides a structured way of thinking about cybersecurity risk, and CIS provides more specific and prioritised safeguards.
 
-Other ISO/IEC 27000-series standards provide guidance covering specific areas of information and application security.
+I have also studied ISO/IEC standards including ISO/IEC 27001, along with UK legislation such as the Computer Misuse Act 1990, UK GDPR, the Data Protection Act 2018 and PECR.
 
-Frameworks and standards can be used together where appropriate. The framework or standard selected should depend on the organisation's requirements, risks, regulatory obligations and the purpose of the assessment.
+One thing I have found important is understanding that a framework, a standard and a piece of legislation are not the same thing. They can work together, but they serve different purposes and the right approach depends on the organisation, its risks and what is being assessed.
 
----
+## 11. Security Reporting
 
-# Legal, Ethical & Regulatory
+One of the areas I think is often overlooked when people talk about cybersecurity is **reporting and documentation**.
 
-Cybersecurity activities must be carried out within legal and ethical boundaries.
+My coursework has covered vulnerability reporting, incident reporting and post-mortem reporting. In particular, I have worked through the structure of an incident post-mortem covering the incident summary, lead-up, fault, impact, detection, response, recovery, timeline, root cause, recurrence and lessons learned.
 
-Authorisation is particularly important when performing security testing. A person should not scan, access, exploit or interfere with systems without appropriate permission.
+The part I find most useful is the distinction between describing what happened and identifying **why it happened**. Root cause analysis and techniques such as the 5 Why approach can help move an investigation beyond the immediate symptom.
 
-Relevant UK legislation and regulatory requirements can include:
-
-- Computer Misuse Act 1990
-- UK GDPR
-- Data Protection Act 2018
-- Privacy and Electronic Communications Regulations (PECR)
-
-Ethical conduct includes acting responsibly, maintaining confidentiality, following agreed security procedures and avoiding conflicts of interest.
-
-Security professionals should ensure that their activities remain within the agreed scope and that information discovered during security work is handled appropriately.
-
----
-
-# Incident Response
-
-Incident response is the process used by an organisation to identify, manage and recover from cybersecurity incidents.
-
-An effective incident response process can include:
-
-- Preparation
-- Identification
-- Containment
-- Eradication
-- Recovery
-- Lessons learned
-
-Incident response should consider both the technical response and the wider organisational impact.
-
-## Incident Post-Mortem
-
-Following an incident, a post-mortem can be used to document what happened, why it happened, the impact, how the incident was handled and what can be improved.
-
-The aim should be to learn from the incident and reduce the likelihood or impact of similar incidents in the future.
-
----
-
-# Cryptography & Data Analysis
-
-Cryptography provides methods for protecting information and communications.
-
-Important concepts include:
-
-- Encoding
-- Hashing
-- Encryption
-- Decryption
-- Keys
-
-Encoding is designed to represent data in another format and is not intended to provide confidentiality.
-
-Hashing produces a fixed-length representation of data and is commonly used for integrity checking and other security purposes.
-
-Encryption is used to protect confidentiality by transforming data so that it cannot be understood without the appropriate means of decryption.
-
-## CyberChef
-
-CyberChef can be used for a range of data analysis and transformation tasks, including:
-
-- Base64 encoding and decoding
-- URL encoding and decoding
-- Hexadecimal conversion
-- XOR operations
-- Hashing
-- Encryption and decryption
-
-It is useful for analysing and transforming data encountered during security investigations and practical exercises.
-
----
-
-# Security Principles
-
-Across these areas, several principles are important to effective cybersecurity:
-
-- Confidentiality
-- Integrity
-- Availability
-- Least privilege
-- Defence in depth
-- Secure configuration
-- Continuous monitoring
-- Risk-based decision making
-- Appropriate authorisation
-- Regular review and improvement
-
-Cybersecurity is an ongoing process. Systems, vulnerabilities, threats and technologies change continuously, meaning organisations need to continually assess and improve their security.
-
----
-
-## Practical Application
-
-The concepts documented here are supported by practical training and security assessments within this portfolio.
-
-Relevant practical work will be linked as it is completed, including:
-
-- Vulnerability assessment
-- Security monitoring
-- Active Directory investigation
-- Network analysis
-- Web application security
-- Reconnaissance and OSINT
-- Threat intelligence
-- Vulnerability management
-- Incident analysis
+I have also learned that a security report needs to make evidence, impact and recommendations understandable to its intended audience. Good technical work still needs to be communicated clearly if it is going to result in action.
