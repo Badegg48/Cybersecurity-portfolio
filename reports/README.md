@@ -4,4 +4,4 @@ Professional-style reports documenting practical cybersecurity assessments and i
 
 ## Reports
 
-[A fishy phishing email](reports/A fishy phishing email.md)
+[A fishy phishing email](Cybersecurity-portfolio/reports/A fishy phishing email.md)
