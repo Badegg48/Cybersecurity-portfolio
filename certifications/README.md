@@ -20,5 +20,5 @@ Planned
 ### [ISO/IEC 27001: Information Security Management System (ISMS)](https://www.udemy.com/share/101XWm3@SXbX-gOuh3kdBOETlZ5GNOyXiItu6OXyqs4uoZpCRZMKRuNAQPLxyyj0dUkuWFL9LQ==/)
 ### [Cisco Packet Tracer: CCNA, Network Design, and Protocols](https://www.udemy.com/course/cisco-packet-tracer-ccna-network-design-and-protocols/?couponCode=PMNVD2025)
 ### [CIPP/E Certification Masterclass: Complete GDPR & Privacy](https://www.udemy.com/share/10fwkX3@SUc-5wLd3LRhLXMC454NF8u9xjmG8QHWEah2JJwpNdW5r3ZwOpaS9Bu-F6TwSD-wfQ==/)
-
+### [Microsoft Azure Fundamentals](https://learn.microsoft.com/en-us/credentials/certifications/azure-fundamentals/?practice-assessment-type=certification#certification-take-the-exam)
 Planned
