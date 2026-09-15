@@ -6,63 +6,66 @@ Aspiring Cybersecurity Professional | Cybersecurity Student | Technical Problem 
 
 I am transitioning into cybersecurity after more than 15 years of experience across operations, logistics, business systems and customer service.
 
-My current development combines formal cybersecurity study with practical technical learning, including vulnerability assessment, security monitoring, Active Directory, networking, web application security and reconnaissance.
+I am currently studying the **NCFE Level 3 Certificate in Cyber Security Practices** while building practical experience through hands-on training, security tools and independent research.
+
+My main career focus is developing towards **incident response, cybersecurity investigation, digital forensics and security monitoring**, while continuing to build broader technical knowledge across vulnerability management, networking, threat intelligence and security testing.
 
 ### Key Areas
 
-- Vulnerability Assessment & Vulnerability Management
+- Incident Response & Investigation
+- Digital Forensics
 - Security Monitoring & SIEM
+- Threat Intelligence & OSINT
+- Vulnerability Assessment & Management
 - Active Directory & Authentication
 - Networking & Network Security
-- Web Application Security
-- Threat Intelligence & OSINT
-- Incident Response Fundamentals
-- Cybersecurity Frameworks & Legislation
+- Security Reporting & Documentation
+- Cybersecurity Governance & Risk
 
 ### Practical Work
 
-- [Vulnerability Assessment](https://github.com/Badegg48/Cybersecurity-portfolio/blob/main/FOUNDATIONS.md#threats--vulnerabilities)
-- [Security Monitoring](https://github.com/Badegg48/Cybersecurity-portfolio/blob/main/FOUNDATIONS.md#security-monitoring)
-- [Active Directory Security](https://github.com/Badegg48/Cybersecurity-portfolio/blob/main/FOUNDATIONS.md#access-control--identity)
-- [Web Application Security](https://github.com/Badegg48/Cybersecurity-portfolio/blob/main/FOUNDATIONS.md#web-application-security)
-- [Reconnaissance & OSINT](https://github.com/Badegg48/Cybersecurity-portfolio/blob/main/FOUNDATIONS.md#threat-intelligence--osint)
+My practical work will be documented through structured reports and write-ups as I complete each project.
 
-*Project links will be added as individual assessments and reports are completed.*
+- [Security Assessment Reports](reports/)
+- [Write-ups](writeups/)
+- [Security Foundations](FOUNDATIONS.md)
+- [Training Record](TRAINING.md)
 
 ## About Me
 
-I am currently studying the **NCFE Level 3 Certificate in Cyber Security Practices** while building practical cybersecurity experience through hands-on training, security tools and independent research.
+I am currently studying the **NCFE Level 3 Certificate in Cyber Security Practices** and developing practical cybersecurity skills alongside my formal studies.
 
-My previous career has given me more than 15 years of experience in operations, logistics, business systems and customer service. During this time I developed strong skills in problem solving, investigation, data analysis, troubleshooting and working with digital business systems.
+My previous career has given me more than 15 years of experience across operations, logistics, business systems and customer service. During this time I developed strong skills in investigation, problem solving, data analysis, troubleshooting, documentation and working with digital business systems.
 
-I have regularly investigated data discrepancies and software issues, worked with IT support to reproduce problems and provide technical evidence, and used digital systems to identify and resolve operational issues.
+I have investigated software faults and data discrepancies, worked alongside IT support to reproduce problems and provide technical evidence, and used digital systems to identify and resolve operational issues.
 
-I am now applying these existing analytical and problem-solving skills to cybersecurity and building toward a long-term career in the industry.
+I am now applying those existing analytical and problem-solving skills to cybersecurity and building towards a long-term career in the sector.
 
 ## Core Skills
 
 ### Cybersecurity
 
-- Vulnerability assessment
-- Threat intelligence
-- OSINT and reconnaissance
-- Security monitoring
 - Incident response fundamentals
+- Digital forensics fundamentals
+- Security monitoring & SIEM
+- Vulnerability assessment & management
+- Threat intelligence & OSINT
+- Security testing
+- Active Directory & authentication
 - Web application security
-- Vulnerability management
-- Security frameworks
-- Cybersecurity legislation and ethical practice
+- Cybersecurity frameworks and standards
+- UK cybersecurity legislation and ethical practice
 
 ### Systems & Networking
 
 - Windows administration
 - Linux command line
 - Active Directory
-- NTLM and Kerberos
+- NTLM & Kerberos
 - Windows Event Logs
-- Authentication and authorisation
+- Authentication & authorisation
 - Networking fundamentals
-- Common network protocols and ports
+- Common protocols and ports
 - HTTP and web technologies
 
 ### Analysis & Investigation
@@ -74,6 +77,7 @@ I am now applying these existing analytical and problem-solving skills to cybers
 - Anomaly identification
 - Vulnerability research
 - Technical documentation
+- Security reporting
 
 ## Security Tools & Technologies
 
@@ -85,56 +89,29 @@ I am now applying these existing analytical and problem-solving skills to cybers
 - VirusTotal
 - CyberChef
 - CVE resources
-- GitHub
-- Windows Command Prompt
-- Linux terminal
+- TryHackMe
+- Windows
+- Linux
 
-## Learning & Training
+## Foundations & Training
 
-My [learning record](TRAINING.md) contains my practical training and cybersecurity research.
+### [Security Foundations](FOUNDATIONS.md)
 
-This includes:
+My cybersecurity knowledge base covering the concepts and lessons I have developed through study and practical work.
 
-- NCFE Level 3 Certificate in Cyber Security Practices
-- TryHackMe practical training
-- Wireshark training
-- Nessus vulnerability scanning
-- Splunk security monitoring
-- Active Directory investigation
-- CyberChef data analysis
-- Networking and security fundamentals
-- Threat intelligence and OSINT
-- Web application security
-- Cybersecurity frameworks
-- UK cybersecurity legislation
-- Cryptography
-- Incident response
+Areas include incident response, digital forensics, security monitoring, threat intelligence, vulnerability management, networking, web security, security testing, frameworks, standards, legislation and security reporting.
 
-## Security Foundations
+### [Training Record](TRAINING.md)
 
-[FOUNDATIONS.md](FOUNDATIONS.md) provides a consolidated overview of my cybersecurity knowledge and understanding across key security domains.
+A record of my formal study, practical training, hands-on exercises and independent research.
 
-Topics include:
-
-- Threats and vulnerabilities
-- Access control and identity
-- Defensive security
-- Offensive security
-- Networking and secure protocols
-- Security monitoring
-- Vulnerability management
-- Web application security
-- Threat intelligence and OSINT
-- Cybersecurity frameworks
-- Legal, ethical and regulatory considerations
-- Incident response
-- Cryptography
+This includes my NCFE Level 3 studies, TryHackMe, Wireshark, Nessus, Splunk, Active Directory, CyberChef and wider cybersecurity research.
 
 ## Security Assessment Reports
 
-The [reports](reports/) section contains structured assessments and investigations based on practical cybersecurity work.
+The [reports](reports/) section contains structured investigations and security assessments based on practical work.
 
-Reports are documented using a professional assessment format where appropriate, including:
+Where appropriate, reports cover:
 
 - Objective
 - Scope
@@ -145,21 +122,21 @@ Reports are documented using a professional assessment format where appropriate,
 - Recommendations
 - Lessons learned
 
-All practical security testing is conducted within authorised or controlled environments.
+All security testing is conducted within authorised or controlled environments.
 
 ## Write-ups
 
-The [write-ups](writeups/) section contains shorter accounts of practical cybersecurity challenges and investigations.
+The [write-ups](writeups/) section contains shorter accounts of cybersecurity challenges and investigations.
 
 These focus on:
 
-- The problem being investigated
+- The problem
 - The approach taken
-- Problems and failed approaches
-- What worked and why
-- The security lesson or finding
+- What worked and what did not
+- The reasoning behind the solution
+- The security lesson
 
-The aim is to demonstrate problem solving and reasoning rather than simply documenting commands or solutions.
+The aim is to demonstrate problem solving and investigation rather than simply documenting commands or answers.
 
 ## Professional Experience
 
@@ -168,7 +145,8 @@ Before moving into cybersecurity, I spent more than 15 years working across oper
 My previous experience includes:
 
 - Investigating software faults and data discrepancies
-- Working alongside IT support to reproduce and resolve system issues
+- Working with IT support to reproduce technical problems
+- Providing technical evidence and validating fixes
 - Managing digital stock control systems and large datasets
 - Root-cause analysis and problem solving
 - Data reconciliation and integrity investigation
@@ -176,7 +154,7 @@ My previous experience includes:
 - Team leadership and operational management
 - Customer and supplier support
 
-These skills provide a strong foundation for analytical and investigative work within cybersecurity.
+These experiences provide a strong foundation for analytical, investigative and documentation-focused cybersecurity work.
 
 ## Qualifications & Professional Development
 
@@ -195,18 +173,19 @@ In Progress
 - Advanced Diploma in Health & Safety – Distinction
 - City & Guilds Level 2 Key Skills in Application of Number
 
-Further details are available in [Certifications](certifications/README.md).
+Further information is available in [Certifications & Qualifications](certifications/README.md).
 
 ## Current Development
 
-I am currently focused on:
+My current focus is on:
 
 - Completing the NCFE Level 3 Certificate in Cyber Security Practices
-- Building practical cybersecurity portfolio projects
-- Developing vulnerability assessment skills
-- Developing security monitoring and SIEM skills
-- Expanding networking knowledge
-- Continuing hands-on security training
+- Developing incident response skills
+- Building digital forensics knowledge
+- Expanding security monitoring and SIEM experience
+- Developing investigation and analytical skills
+- Building practical security reports and write-ups
+- Continuing hands-on cybersecurity training
 - Preparing for CompTIA Security+
 
 ## Interests
@@ -221,5 +200,5 @@ https://www.linkedin.com/in/daniel-s-hughes/
 **GitHub:**  
 https://github.com/Badegg48/Cybersecurity-portfolio
 
-**TrhHackMe:**  
+**TryHackMe:**  
 https://tryhackme.com/p/Badegg048
