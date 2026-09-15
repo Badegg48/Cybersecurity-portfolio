@@ -22,10 +22,10 @@ My current development combines formal cybersecurity study with practical techni
 ### Practical Work
 
 - [Vulnerability Assessment](https://github.com/Badegg48/Cybersecurity-portfolio/blob/main/FOUNDATIONS.md#threats--vulnerabilities)
-- [Security Monitoring]([reports/](https://github.com/Badegg48/Cybersecurity-portfolio/blob/main/FOUNDATIONS.md#security-monitoring))
-- [Active Directory Security]([reports/](https://github.com/Badegg48/Cybersecurity-portfolio/blob/main/FOUNDATIONS.md#access-control--identity))
-- [Web Application Security]([reports/](https://github.com/Badegg48/Cybersecurity-portfolio/blob/main/FOUNDATIONS.md#web-application-security))
-- [Reconnaissance & OSINT]([reports/](https://github.com/Badegg48/Cybersecurity-portfolio/blob/main/FOUNDATIONS.md#threat-intelligence--osint))
+- [Security Monitoring](https://github.com/Badegg48/Cybersecurity-portfolio/blob/main/FOUNDATIONS.md#security-monitoring)
+- [Active Directory Security](https://github.com/Badegg48/Cybersecurity-portfolio/blob/main/FOUNDATIONS.md#access-control--identity)
+- [Web Application Security](https://github.com/Badegg48/Cybersecurity-portfolio/blob/main/FOUNDATIONS.md#web-application-security)
+- [Reconnaissance & OSINT](https://github.com/Badegg48/Cybersecurity-portfolio/blob/main/FOUNDATIONS.md#threat-intelligence--osint)
 
 *Project links will be added as individual assessments and reports are completed.*
 
