@@ -91,7 +91,7 @@ I am now applying these existing analytical and problem-solving skills to cybers
 
 ## Learning & Training
 
-My [learning record](LEARNING.md) contains my formal coursework, practical training and cybersecurity research.
+My [learning record](TRAINING.md) contains my practical training and cybersecurity research.
 
 This includes:
 
