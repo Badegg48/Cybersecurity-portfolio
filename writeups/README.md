@@ -1,21 +1,13 @@
 # Write-ups
 
-Short, structured accounts of challenges I solved myself. The point of this
-folder is to show *reasoning*, which a completion count cannot: what I was
-faced with, what I tried, what failed, what worked, and the underlying security
-lesson.
+Short, structured documentation of cybersecurity exercises, investigations and practical work.
 
-The file names are the room names, so they say nothing about what is inside.
-The index below is generated from each write-up's own header, so it stays
-accurate.
+The purpose of this folder is to document what I worked on, what I found and what I learned without the level of detail used in my professional-style reports.
 
-## Index
+Write-ups may include coursework exercises, incident response activities, TryHackMe rooms, security investigations, tool-based exercises and other practical work.
 
-<!--INDEX:START-->
+Where appropriate, they focus on the process and reasoning behind the work rather than simply recording the final result.
 
-### Web Application
+## Write-ups
 
-| Write-up | Focus | Difficulty | Date |
-| --- | --- | --- | --- |
-
-<!--INDEX:END-->
+- [Phishing Incident Post-Mortem](https://github.com/Badegg48/Cybersecurity-portfolio/blob/main/writeups/A%20fishy%20phishing%20email%20post%20mortem.md)
