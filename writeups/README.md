@@ -6,8 +6,6 @@ The purpose of this folder is to document what I worked on, what I found and wha
 
 Write-ups may include coursework exercises, incident response activities, TryHackMe rooms, security investigations, tool-based exercises and other practical work.
 
-Where appropriate, they focus on the process and reasoning behind the work rather than simply recording the final result.
-
 ## Write-ups
 
 - [Phishing Incident Post-Mortem](https://github.com/Badegg48/Cybersecurity-portfolio/blob/main/writeups/A%20fishy%20phishing%20email%20post%20mortem.md)
