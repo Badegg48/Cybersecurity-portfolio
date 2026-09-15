@@ -1,244 +1,327 @@
-# Phishing Incident Investigation
+# Phishing / Social Engineering Incident Response Plan
+
+**Framework:** NIST Incident Response Lifecycle  
+**Scenario:** Phishing email disguised as an HR holiday request form  
+**Type:** Coursework / Simulated Scenario  
+**Status:** Completed  
+**Course:** NCFE Level 3 Certificate in Cyber Security Practices
+
+---
 
 ## Overview
 
-This report documents a simulated phishing incident based on an incident response and post-mortem exercise completed as part of my NCFE Level 3 Certificate in Cyber Security Practices.
+This incident response plan was created as part of my NCFE Level 3 Certificate in Cyber Security Practices.
 
-The exercise focused on investigating a suspected phishing email, documenting the incident, assessing the potential impact and identifying lessons that could reduce the likelihood or impact of similar incidents in the future.
+The plan covers how an organisation should respond to a phishing or social engineering incident using the **NIST Incident Response Lifecycle**.
 
-This is a coursework-based simulated incident and not an investigation of a real organisation or customer environment.
+The scenario involves a phishing email disguised as a holiday request form from the HR department. The email contains a link to download a PDF and could potentially lead to malware infection or unauthorised access.
 
----
-
-## Objective
-
-The objective of the exercise was to:
-
-- Investigate a suspected phishing email.
-- Identify the potential security risk.
-- Document how the incident was detected and handled.
-- Establish the likely root cause.
-- Create an incident timeline.
-- Identify lessons learned and potential improvements.
-
-A post-mortem should provide a blame-free analysis of what happened, why it happened and how the organisation's incident response worked, with the aim of learning from the incident and preventing similar incidents in the future.
+The purpose of the plan is to provide a clear process for identifying, containing, removing and recovering from the threat.
 
 ---
 
-## Scenario
+# 1. Preparation
 
-A staff member reported receiving a suspected phishing email.
+Preparation is about making sure the organisation, staff and security controls are ready before an incident occurs.
 
-The message appeared to be from the HR department and was disguised as a holiday request form. The email asked the recipient to follow a link to download a PDF titled:
+For a phishing incident, preparation should include:
+
+- A clear process for reporting suspicious emails.
+- Contact details for the incident response team.
+- Security awareness training for staff.
+- Email security and filtering controls.
+- Anti-malware protection.
+- Logging and monitoring.
+- Procedures for securing compromised accounts.
+- Procedures for removing malicious emails.
+- Backup and recovery procedures.
+- An up-to-date incident response plan.
+
+### Roles and Responsibilities
+
+| Role | Responsibility |
+|---|---|
+| Employee | Identify and report suspicious emails and avoid interacting with them. |
+| Security Team | Investigate reported emails, contain the threat and remove malicious content. |
+| IT Manager | Support the technical investigation and coordinate system or account recovery. |
+| Senior Management | Make important business decisions and approve wider actions where required. |
+| Data Protection Officer | Assess whether personal data may have been affected and advise on reporting requirements. |
+
+---
+
+# 2. Detection and Analysis
+
+A phishing incident may be identified when a member of staff notices something suspicious in an email.
+
+Warning signs may include:
+
+- Unexpected emails.
+- Unusual sender addresses.
+- Suspicious links.
+- Unexpected file downloads.
+- Requests for information.
+- Urgent or unusual requests.
+
+### Scenario
+
+A staff member receives an email appearing to come from the HR department.
+
+The email is disguised as a **holiday request form** and contains a link to download a PDF titled:
 
 `Holiday request form`
 
-The suspicious link created a potential security risk if the recipient interacted with it.
+The employee identifies the email as suspicious and reports it to the security team.
+
+### Analysis
+
+The security team should:
+
+1. Obtain the reported email.
+2. Examine the sender and message.
+3. Review the suspicious attachment.
+4. Determine whether the message is legitimate.
+5. Check whether other members of staff received the same email.
+6. Check whether anyone interacted with the email.
+7. Assess whether an account or system may have been compromised.
+
+The aim is to establish whether the email is malicious, understand the potential impact and determine the appropriate response.
 
 ---
 
-## Initial Report
+# 3. Containment
 
-The incident was initially identified by the staff member, who recognised the email as suspicious and reported it to the security team.
+Once the email has been identified as malicious, the immediate priority is to prevent it from causing further harm.
 
-The message was then investigated to determine whether it represented a genuine security threat.
+Actions may include:
 
----
+- Preventing further interaction with the email.
+- Removing the malicious email from the affected inbox.
+- Blocking the sending address.
+- Blocking the malicious link or domain where appropriate.
+- Checking whether other users received the same email.
+- Checking whether anyone interacted with it.
+- Securing any potentially affected accounts.
 
-## Investigation
-
-The security team investigated the reported email and confirmed that it was malicious.
-
-The investigation established that the message used social engineering techniques to make the email appear legitimate and encourage the recipient to interact with the supplied link.
-
-The main concern was not simply that the email reached the inbox, but that interaction with the malicious link could potentially have resulted in a wider compromise.
-
-The exercise therefore considered the incident from both a detection and response perspective.
+Containment should be carried out as quickly as possible to reduce the opportunity for further compromise.
 
 ---
 
-## Findings
+# 4. Eradication
 
-The investigation identified the following:
+Once the incident has been contained, the organisation should remove the threat.
 
-### Phishing email
+Actions may include:
 
-The message was designed to appear as a legitimate HR communication relating to a holiday request.
+- Removing malicious emails.
+- Blocking the malicious sender.
+- Removing malicious files if they were downloaded.
+- Blocking malicious links or domains.
+- Disabling or securing compromised accounts.
+- Changing passwords where required.
+- Removing malware if identified.
+- Fixing vulnerabilities identified during the investigation.
 
-### Social engineering
-
-The attacker attempted to make the recipient trust the message by disguising it as an internal HR request.
-
-### Suspicious link
-
-The email contained a link that directed the recipient towards downloading a PDF.
-
-### Potential impact
-
-The primary risks identified were:
-
-- Malware infection.
-- Unauthorised access.
-
-No further compromise was identified during the exercise.
+The security team should confirm that the threat has been removed before moving to recovery.
 
 ---
 
-## Incident Timeline
+# 5. Recovery
 
-| Time | Event |
-|---|---|
-| 09:12 AM | Phishing email received by staff member |
-| 09:16 AM | Staff member identifies the email as suspicious |
-| 09:18 AM | Suspected phishing email reported to the security team |
-| 09:25 AM | Security team begins investigation |
-| 09:34 AM | Email confirmed as malicious |
-| 09:40 AM | Malicious email removed from the affected inbox |
-| 09:47 AM | Staff account checked for signs of compromise |
-| 10:05 AM | Incident response completed and incident closed |
+Recovery is the process of returning affected users and systems to normal operation.
 
----
+Actions may include:
 
-## Impact Assessment
+- Checking the affected user's account for signs of compromise.
+- Restoring affected systems or data where necessary.
+- Restoring from clean backups if required.
+- Testing systems before returning them to normal operation.
+- Continuing to monitor affected accounts and systems.
+- Confirming that no further suspicious activity is taking place.
 
-The potential impact of the incident was the compromise of a staff member through a malicious phishing link.
-
-The identified risks were malware infection and unauthorised access.
-
-The incident was detected and reported before a further breach occurred, and the account was checked for signs of compromise.
-
-Based on the information available in the exercise, no further threat was identified and the incident was considered resolved.
+Where no compromise is identified, normal operation can continue once the investigation and security checks are complete.
 
 ---
 
-## Response Actions
+# 6. Post-Incident Activity
 
-The response included:
+After the incident has been dealt with, the organisation should review what happened and how well the response worked.
 
-1. Investigating the reported email.
-2. Confirming that the email was malicious.
-3. Blocking the sending address.
-4. Removing the malicious email from the affected inbox.
-5. Checking the user's account for signs of compromise.
-6. Reminding staff to check email addresses carefully.
-7. Closing the incident once no further threat was identified.
+The review should consider:
 
----
+- What happened?
+- How was the phishing email detected?
+- How quickly was it reported?
+- How quickly did the security team respond?
+- Did the incident response plan work as expected?
+- Did the security controls work effectively?
+- Was anyone compromised?
+- What could have been done differently?
+- What indicators should be monitored in future?
 
-## Root Cause
-
-The root cause was the successful delivery of a phishing email to a staff member's inbox.
-
-The attack relied on social engineering to make a malicious message appear to be a legitimate HR communication and encourage the recipient to follow an unsafe link.
-
-The exercise demonstrates that phishing is not solely a technical problem. User awareness and email security controls both form part of the defence against this type of attack.
+The findings should be used to improve the incident response plan, security controls and staff awareness.
 
 ---
 
-## Detection
+# 7. Incident Response Checklist
 
-Detection in this case relied on the staff member recognising that the email was suspicious and reporting it to the security team.
+## Preparation
 
-This highlights the importance of user awareness as part of an organisation's overall detection capability.
+- [ ] Incident response contacts available.
+- [ ] Staff know how to report suspicious emails.
+- [ ] Email security controls are active.
+- [ ] Monitoring and logging are available.
+- [ ] Account recovery procedures are available.
 
-It also demonstrates why security monitoring and other detection mechanisms should complement user reporting rather than relying on a single source of detection.
+## Detection and Analysis
 
----
+- [ ] Suspicious email reported.
+- [ ] Email investigated.
+- [ ] Sender examined.
+- [ ] Suspicious link examined.
+- [ ] Other recipients identified.
+- [ ] User interaction checked.
+- [ ] Potential impact assessed.
+
+## Containment
+
+- [ ] Malicious email removed.
+- [ ] Sender blocked.
+- [ ] Malicious link or domain blocked where appropriate.
+- [ ] Potentially affected accounts secured.
+- [ ] Other affected users identified.
+
+## Eradication
+
+- [ ] Malicious content removed.
+- [ ] Compromised accounts secured.
+- [ ] Passwords changed where required.
+- [ ] Malware removed if identified.
+- [ ] Threat confirmed as removed.
 
 ## Recovery
 
-Recovery consisted of removing the malicious email and checking the affected user account for signs of compromise.
+- [ ] Affected account checked.
+- [ ] Systems restored if required.
+- [ ] Systems tested.
+- [ ] Monitoring continued.
+- [ ] Normal operation confirmed.
 
-The incident was considered resolved once no further threat was identified.
+## Post-Incident Activity
 
-The exercise did not provide evidence of an actual system compromise, so no wider system recovery or rebuilding was required.
-
----
-
-## Lessons Learned
-
-Several lessons can be taken from the incident.
-
-### Security awareness
-
-The incident demonstrates the value of staff being able to recognise suspicious emails and report them quickly.
-
-### Email security
-
-The exercise also highlights the importance of effective email security controls to reduce the likelihood of malicious messages reaching users.
-
-### Early reporting
-
-The time between the suspicious email being identified and being reported to the security team was short. Early reporting allowed the security team to investigate and respond before further compromise occurred.
-
-### Incident response
-
-The exercise reinforced the importance of documenting the incident, maintaining a clear timeline and reviewing how the response worked.
+- [ ] Incident documented.
+- [ ] Response reviewed.
+- [ ] Improvements identified.
+- [ ] Security controls reviewed.
+- [ ] Incident response plan updated where required.
+- [ ] Staff awareness or training updated where appropriate.
 
 ---
 
-## Recommendations
+# 8. Communication
 
-Based on the exercise, the following improvements could help reduce the likelihood or impact of similar incidents:
+Information should be communicated to the appropriate people throughout the incident.
 
-- Continue security awareness training for staff.
-- Reinforce the process for reporting suspicious emails.
-- Maintain effective email security controls.
-- Review phishing detection and filtering capabilities.
-- Continue testing and reviewing the incident response process.
-- Use lessons learned from incidents to improve future response procedures.
+## Internal Communication
 
-These recommendations are based on the scenario and the lessons identified during the exercise.
+Depending on the severity of the incident, this may include:
+
+- Security Team
+- IT Manager
+- Senior Management
+- Data Protection Officer
+- Affected staff
+
+Staff should receive clear instructions and relevant updates.
+
+## External Communication
+
+Depending on the circumstances, the organisation may need to consider communication with:
+
+- Customers
+- Police
+- Insurers
+- ICO
+- Other relevant external organisations
+
+Only authorised personnel should communicate externally about the incident.
 
 ---
 
-## Incident Response Process
+# 9. Recovery and Review
 
-This exercise relates closely to the incident response lifecycle studied during the course.
+The incident should not be considered complete simply because the malicious email has been removed.
 
-The wider incident response process includes preparation, identification, containment, eradication, recovery and lessons learned.
+The organisation should confirm that:
 
-For this incident, the practical exercise primarily demonstrated identification, response, recovery and lessons learned.
+- The affected account has not been compromised.
+- No other users have been affected.
+- The malicious email has been removed.
+- The malicious sender or link has been blocked where appropriate.
+- There is no further suspicious activity.
+- Any required recovery actions have been completed.
 
-Post-incident activities should also include reviewing what happened, updating response procedures where necessary and confirming that the security risk has been removed.
+The response should then be reviewed and any improvements added to future procedures.
+
+---
+
+# 10. Scenario Response
+
+For this scenario, the expected response would be:
+
+**Preparation**  
+Staff are trained to recognise phishing and know how to report suspicious emails.
+
+↓
+
+**Detection & Analysis**  
+Staff member identifies suspicious holiday request email → reports it → security team investigates → email confirmed as malicious.
+
+↓
+
+**Containment**  
+Malicious email removed → sender blocked → other recipients checked → potentially affected accounts identified.
+
+↓
+
+**Eradication**  
+Malicious content removed → compromised accounts secured if necessary → threat confirmed as removed.
+
+↓
+
+**Recovery**  
+Affected account checked → systems restored if necessary → monitoring continues.
+
+↓
+
+**Post-Incident Activity**  
+Incident documented → response reviewed → lessons learned → security awareness and email controls improved.
 
 ---
 
 ## What I Learned
 
-This exercise helped me understand that incident response is not simply about reacting to a technical compromise.
+Creating this plan helped me understand the difference between having an incident response plan and documenting an incident after it has happened.
 
-A suspected phishing email still requires a structured process:
+The plan needs to give people clear actions to follow during an incident rather than simply describing what happened afterwards.
 
-**Report → Investigate → Confirm → Contain → Check for compromise → Recover → Learn**
+Using the NIST lifecycle also helped me understand how the different stages connect:
 
-One of the most useful parts of the exercise was creating the timeline. Recording exactly when the email was received, reported, investigated and resolved makes it much easier to understand how quickly the incident was detected and how effectively it was handled.
+**Preparation → Detection and Analysis → Containment, Eradication and Recovery → Post-Incident Activity**
 
-The exercise also reinforced the importance of documentation. A good incident report should explain what happened, what the impact could have been, what actions were taken and what should be improved afterwards.
+The main lesson from this scenario is that phishing response is not only about removing a malicious email. The organisation also needs to consider user awareness, account security, communication, recovery and what can be improved afterwards.
 
 ---
 
-## Skills & Techniques Demonstrated
+## Skills Demonstrated
 
-- Incident identification
-- Phishing analysis
-- Social engineering awareness
-- Incident response lifecycle
-- Incident timeline construction
-- Impact assessment
-- Root cause identification
-- Incident documentation
-- Post-mortem analysis
+- Incident response planning
+- NIST incident response lifecycle
+- Phishing awareness
+- Social engineering
+- Threat identification
+- Incident containment
+- Eradication and recovery
+- Incident response checklists
+- Security communication
 - Lessons learned
-- Security awareness
-- Risk identification
-
----
-
-## Classification
-
-**Type:** Coursework / Simulated Incident  
-**Area:** Incident Response  
-**Scenario:** Phishing / Social Engineering  
-**Status:** Completed  
-**Platform:** NCFE Level 3 Certificate in Cyber Security Practices
+- Security documentation
