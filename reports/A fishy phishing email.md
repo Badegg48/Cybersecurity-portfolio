@@ -309,18 +309,6 @@ Using the NIST lifecycle also helped me understand how the different stages conn
 **Preparation → Detection and Analysis → Containment, Eradication and Recovery → Post-Incident Activity**
 
 The main lesson from this scenario is that phishing response is not only about removing a malicious email. The organisation also needs to consider user awareness, account security, communication, recovery and what can be improved afterwards.
-
----
-
-## Skills Demonstrated
-
-- Incident response planning
-- NIST incident response lifecycle
-- Phishing awareness
-- Social engineering
-- Threat identification
-- Incident containment
-- Eradication and recovery
 - Incident response checklists
 - Security communication
 - Lessons learned
