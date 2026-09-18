@@ -30,6 +30,69 @@ Hands-on cybersecurity training across a range of subjects, including:
 - Vulnerability assessment
 - Security monitoring
 - Web application security
+- SOC alert triage
+- Windows security monitoring
+- Detection engineering
+- Metasploit
+- Attack and threat modelling
+
+Recent practical training has included:
+
+### SOC L1 Alert Triage
+
+**Status: Practical experience developing**
+
+Completed practical training covering:
+
+- Security alert review and classification
+- Alert prioritisation
+- Investigation workflow
+- True positive / false positive decisions
+- Escalation
+- Investigation documentation
+- Alert closure
+
+### Windows Security Monitoring
+
+**Status: Practical experience developing**
+
+Completed hands-on training using Windows Event Viewer, command-line tools and Windows security logs to investigate suspicious activity.
+
+Training included:
+
+- Authentication monitoring
+- RDP investigation
+- Windows account activity
+- Process monitoring
+- Sysmon
+- Event correlation
+- Security event analysis
+
+### Detection Engineering
+
+**Status: Practical experience developing**
+
+Completed training covering the detection engineering lifecycle, including:
+
+- Threat research
+- Data and log-source review
+- Detection design
+- Testing and validation
+- Detection deployment
+- Detection tuning
+- Detection maintenance
+
+### Metasploit Framework
+
+**Status: Practical experience developing**
+
+Completed controlled practical training with the Metasploit Framework, covering module selection, configuration, payloads, exploitation concepts and post-exploitation modules.
+
+### Unified Kill Chain
+
+**Status: Studied**
+
+Studied the Unified Kill Chain as part of attack and threat analysis training, using attack stages to understand how activity can develop and where defenders may be able to detect or disrupt it.
 
 Individual challenges and investigations that demonstrate problem solving will be documented in [writeups](writeups/).
 
@@ -125,7 +188,7 @@ Practical coursework has included incident investigation exercises and considera
 
 **Status: Completed**
 
-Studied the purpose and structure of incident post-mortem reports, including:
+Completed a phishing incident case study using a structured post-mortem format covering:
 
 - Incident summary
 - Lead up
@@ -139,17 +202,34 @@ Studied the purpose and structure of incident post-mortem reports, including:
 - Recurrence
 - Lessons learned
 
-Completed a phishing incident case study using this structure.
+Also studied the importance of integrity, rigour and discipline when producing and reviewing post-mortem reports.
+
+[Phishing Incident Post-Mortem](writeups/incident-response/phishing-incident-post-mortem.md)
+
+### Cyber Attack Case Studies
+
+**Status: Completed**
+
+Studied real-world cyber attacks to develop understanding of attack behaviour, vulnerabilities, propagation and defensive response.
+
+Case studies included:
+
+- WannaCry ransomware
+- EternalBlue and SMB exploitation
+- Ransomware propagation
+- Legacy system risks
+- Incident mitigation and response
 
 ### Digital Forensics
 
 **Status: Developing**
 
-Current study covers the role of digital evidence and forensic artefacts in cybersecurity investigations, including:
+Current study and practical development covers:
 
+- Digital evidence
+- Forensic artefacts
 - Logs
-- Files
-- File metadata
+- Files and metadata
 - Authentication records
 - Network information
 - Evidence integrity
@@ -159,7 +239,9 @@ This is an area I intend to develop further through practical investigation-focu
 
 ### Security Monitoring & Investigation
 
-Developing the relationship between security monitoring and incident investigation through work with:
+**Status: Developing**
+
+Developing security monitoring and investigation skills through practical work involving:
 
 - SIEM
 - Windows security events
@@ -167,6 +249,8 @@ Developing the relationship between security monitoring and incident investigati
 - Baselines
 - Anomaly identification
 - Log analysis
+- Alert triage
+- Event correlation
 - Threat detection
 
 ---
@@ -183,8 +267,6 @@ Studied:
 - ISO/IEC 27001
 - ISO/IEC 27034
 - ISO/IEC 27040
-
-Research has focused on how frameworks and standards can support cybersecurity risk management, security controls and organisational security.
 
 ### Threat Intelligence
 
@@ -245,6 +327,18 @@ CyberChef has been used to support practical learning in these areas.
 
 ---
 
+## Professional Development
+
+### Google Foundations of Project Management
+
+**Status: Completed – September 2026**
+
+Completed an online course authorised by Google and delivered through Coursera.
+
+Training covered project management fundamentals, project lifecycle, planning, stakeholder communication, cross-functional teams, change management, organisational structures, governance and project methodologies including Waterfall, Agile, Scrum, Kanban, Lean, Six Sigma and DMAIC.
+
+---
+
 ## Security Tools & Platforms
 
 Tools, platforms and technical resources used throughout my development include:
@@ -257,6 +351,7 @@ Tools, platforms and technical resources used throughout my development include:
 - Shodan
 - VirusTotal
 - CyberChef
+- Metasploit
 - CVE resources
 - GitHub
 - Windows
@@ -283,6 +378,9 @@ Current areas of focus:
 - Developing incident response skills
 - Developing digital forensics knowledge
 - Expanding security monitoring and SIEM experience
+- Developing SOC L1 alert triage skills
+- Continuing Windows security monitoring development
+- Building detection engineering knowledge
 - Building investigation and analytical skills
 - Continuing practical cybersecurity training
 - Building a portfolio of security reports and write-ups
