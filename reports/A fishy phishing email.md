@@ -12,7 +12,7 @@
 
 This incident response plan was created as part of my NCFE Level 3 Certificate in Cyber Security Practices.
 
-The plan covers how an organisation should respond to a phishing or social engineering incident using the **NIST Incident Response Lifecycle**.
+The plan covers how an organisation should respond to a phishing or social engineering incident using the NIST Incident Response Lifecycle.
 
 The scenario involves a phishing email disguised as a holiday request form from the HR department. The email contains a link to download a PDF and could potentially lead to malware infection or unauthorised access.
 
@@ -66,7 +66,7 @@ Warning signs may include:
 
 A staff member receives an email appearing to come from the HR department.
 
-The email is disguised as a **holiday request form** and contains a link to download a PDF titled:
+The email is disguised as a holiday request form and contains a link to download a PDF titled:
 
 `Holiday request form`
 
