@@ -6,15 +6,18 @@ Aspiring Cybersecurity Professional | Cybersecurity Student | Technical Problem 
 
 I am transitioning into cybersecurity after more than 15 years of experience across operations, logistics, business systems and customer service.
 
-I am currently studying the **NCFE Level 3 Certificate in Cyber Security Practices** while building practical experience through hands-on training, security tools and independent research.
+I am currently studying the **NCFE Level 3 Certificate in Cyber Security Practices** while developing practical cybersecurity skills through hands-on training, security tools and independent research.
 
-My main career focus is developing towards **incident response, cybersecurity investigation, digital forensics and security monitoring**, while continuing to build broader technical knowledge across vulnerability management, networking, threat intelligence and security testing.
+My main career focus is developing towards **incident response, cybersecurity investigation, digital forensics and security monitoring**, while continuing to build broader technical knowledge across vulnerability management, networking, threat intelligence, security testing and detection.
 
 ### Key Areas
 
 - Incident Response & Investigation
 - Digital Forensics
 - Security Monitoring & SIEM
+- SOC Alert Triage
+- Windows Security Monitoring
+- Detection Engineering
 - Threat Intelligence & OSINT
 - Vulnerability Assessment & Management
 - Active Directory & Authentication
@@ -24,9 +27,9 @@ My main career focus is developing towards **incident response, cybersecurity in
 
 ### Practical Work
 
-My practical work will be documented through structured reports and write-ups as I complete each project.
+My practical work is documented through structured reports and write-ups as I complete each project.
 
-- [Security Assessment Reports](reports/)
+- [Security Reports](reports/)
 - [Write-ups](writeups/)
 - [Security Foundations](FOUNDATIONS.md)
 - [Training Record](TRAINING.md)
@@ -48,6 +51,9 @@ I am now applying those existing analytical and problem-solving skills to cybers
 - Incident response fundamentals
 - Digital forensics fundamentals
 - Security monitoring & SIEM
+- SOC alert triage
+- Windows security monitoring
+- Detection engineering fundamentals
 - Vulnerability assessment & management
 - Threat intelligence & OSINT
 - Security testing
@@ -64,15 +70,18 @@ I am now applying those existing analytical and problem-solving skills to cybers
 - NTLM & Kerberos
 - Windows Event Logs
 - Authentication & authorisation
+- Process and authentication monitoring
 - Networking fundamentals
 - Common protocols and ports
 - HTTP and web technologies
+- Wireshark
 
 ### Analysis & Investigation
 
 - Root-cause analysis
 - Data investigation and reconciliation
 - Log analysis
+- Alert investigation and triage
 - Baseline analysis
 - Anomaly identification
 - Vulnerability research
@@ -84,6 +93,7 @@ I am now applying those existing analytical and problem-solving skills to cybers
 - Nessus
 - Wireshark
 - Splunk
+- Metasploit Framework
 - Active Directory
 - Shodan
 - VirusTotal
@@ -99,17 +109,17 @@ I am now applying those existing analytical and problem-solving skills to cybers
 
 My cybersecurity knowledge base covering the concepts and lessons I have developed through study and practical work.
 
-Areas include incident response, digital forensics, security monitoring, threat intelligence, vulnerability management, networking, web security, security testing, frameworks, standards, legislation and security reporting.
+Areas include incident response, digital forensics, security monitoring, threat intelligence, vulnerability management, networking, web security, security testing, frameworks, standards, legislation, detection engineering and security reporting.
 
 ### [Training Record](TRAINING.md)
 
 A record of my formal study, practical training, hands-on exercises and independent research.
 
-This includes my NCFE Level 3 studies, TryHackMe, Wireshark, Nessus, Splunk, Active Directory, CyberChef and wider cybersecurity research.
+This includes my NCFE Level 3 studies, TryHackMe, Wireshark, Nessus, Splunk, Active Directory, CyberChef, Metasploit Framework, Windows security monitoring, SOC alert triage, detection engineering and wider cybersecurity research.
 
-## Security Assessment Reports
+## Security Reports
 
-The [reports](reports/) section contains structured investigations and security assessments based on practical work.
+The [reports](reports/) section contains structured security reports, investigations and assessments based on practical work.
 
 Where appropriate, reports cover:
 
@@ -167,6 +177,10 @@ In Progress
 
 **CompTIA Security+**
 
+### Professional Development
+
+- **Google Foundations of Project Management** – Completed September 2026
+
 ### Previous Qualifications
 
 - OCR Level 2 Certificate for iMedia Users
@@ -180,10 +194,13 @@ Further information is available in [Certifications & Qualifications](certificat
 My current focus is on:
 
 - Completing the NCFE Level 3 Certificate in Cyber Security Practices
-- Developing incident response skills
+- Developing incident response and investigation skills
 - Building digital forensics knowledge
 - Expanding security monitoring and SIEM experience
-- Developing investigation and analytical skills
+- Developing SOC alert triage skills
+- Developing Windows security monitoring skills
+- Building detection engineering knowledge
+- Developing practical security testing skills
 - Building practical security reports and write-ups
 - Continuing hands-on cybersecurity training
 - Preparing for CompTIA Security+
