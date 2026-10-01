@@ -17,6 +17,9 @@ My main career interest is incident response, cybersecurity investigation, digit
 | Vulnerability Management | Identify, assess, prioritise and investigate vulnerabilities and consider remediation |
 | Active Directory & Identity | Understand authentication, authorisation, Active Directory, NTLM, Kerberos and Windows identity events |
 | Networking | Understand OSI/TCP-IP, protocols, ports and how network activity can be investigated |
+| Windows Fundamentals | Understand Windows accounts, permissions, file systems, system utilities and built-in security controls |
+| Malware Analysis & Reverse Engineering | Understand static and dynamic analysis, malware indicators and how compiled programs can be examined |
+| Cryptography & Steganography | Understand encryption, hashing, file integrity and the difference between protecting and concealing information |
 | Web Security | Understand HTTP, web applications and common application security weaknesses |
 | Security Testing | Understand reconnaissance, vulnerability assessment, penetration testing, Metasploit and the importance of scope |
 | Governance & Risk | Understand frameworks, standards, risk, legislation, security controls and organisational governance |
@@ -76,6 +79,12 @@ The investigation process can include identifying the affected user or host, und
 The final stage is to document what was investigated, the evidence found, the analysis performed and the reason for the final verdict before closing or escalating the alert.
 
 This has helped me understand the importance of **ownership, prioritisation, investigation, escalation and accurate documentation** within a SOC.
+
+### Network Traffic Analysis and Perimeter Monitoring
+
+My networking rooms have helped me understand the value of looking at traffic as it moves through an organisation, rather than relying only on alerts from individual computers. Network traffic analysis can help investigate unusual connections, confirm an alert, reconstruct an incident and spot activity such as scanning, command-and-control communication or possible data exfiltration.
+
+Useful sources include firewall and IDS/IPS logs, full packet captures and flow information such as NetFlow or IPFIX. Each source gives a different level of detail. I would compare what is happening at the network perimeter with activity on affected hosts and check it against normal traffic patterns. This gives better context than treating one unusual connection as proof of an attack. [TryHackMe: Network Traffic Basics](https://tryhackme.com/room/networktrafficbasics) [TryHackMe: Network Security Essentials](https://tryhackme.com/room/networksecurityessentials)
 
 ### Windows Security Monitoring
 
@@ -156,6 +165,22 @@ I have also learned that finding an interesting artefact is only part of an inve
 
 My Windows security monitoring work has also helped connect digital evidence to investigation. Event IDs, Logon IDs, process creation events, process trees and authentication activity can provide individual pieces of evidence that can then be correlated to understand a wider sequence of activity.
 
+### Malware Analysis and Reverse Engineering
+
+I have started learning how analysts examine suspicious files to work out whether they may be malicious and what they might do. Static analysis looks at a file without running it; dynamic analysis observes its behaviour in a controlled environment. File hashes, readable strings, file properties and PE headers can provide useful clues, while observing processes, file changes, registry activity and network connections can help explain what happens when a sample runs.
+
+Malware should only be handled in an isolated analysis environment that can be returned to a clean state. Findings need to be recorded carefully, as a file name or a single antivirus result on its own does not prove what a sample does.
+
+I have also started learning the basics of reverse engineering: examining a compiled program to understand its logic when the original source code is not available. Looking at instructions, program flow and how the program handles input can help explain its behaviour. These are introductory skills, and I want to develop them further through safe, practical training. [TryHackMe: Intro to Malware Analysis](https://tryhackme.com/room/intromalwareanalysis) [TryHackMe: Windows Reversing Intro](https://tryhackme.com/room/windowsreversingintro)
+
+### Steganography, Cryptography and Hashes
+
+Steganography is about hiding information inside another file or message, while encryption changes information so it cannot be read without the right key. These are different approaches: encryption protects the contents, while steganography attempts to conceal that information is there.
+
+I have studied the difference between plaintext and ciphertext, and between symmetric encryption, which uses the same secret key to encrypt and decrypt, and asymmetric encryption, which uses a public and private key pair. Hashing is different again: it produces a fixed-length value used to compare data, check integrity or support password verification. A hash is not a way to decrypt data.
+
+These ideas are useful when checking whether a file has changed, identifying a known sample, understanding how data is protected, or investigating information that may be concealed in a file. [TryHackMe: Cryptography Basics](https://tryhackme.com/room/cryptographybasics) [TryHackMe: Hashing Basics](https://tryhackme.com/room/hashingbasics)
+
 ## 4. Threat Intelligence & OSINT
 
 I have learned to distinguish between **open-source information** and **intelligence**. Open-source information is what can be collected from publicly available sources, while intelligence comes from analysing that information to answer a question or support a decision.
@@ -211,6 +236,14 @@ The WannaCry case study reinforced this understanding. The attack demonstrated h
 
 I have studied the difference between **authentication** and **authorisation**, along with Active Directory, NTLM and Kerberos.
 
+### Windows Fundamentals and Active Directory
+
+My Windows Fundamentals training covered the desktop and file system, local accounts and permissions, User Account Control, system settings, Task Manager, Event Viewer, Resource Monitor and the Windows Registry. I also looked at built-in protections such as Windows Updates, Windows Security, firewall profiles, BitLocker and Volume Shadow Copy.
+
+Active Directory provides a central way to manage users, computers and security settings in a Windows domain. A domain controller provides directory services; users and computers are represented as directory objects, and groups help manage permissions. Organisational units and Group Policy help organise objects and apply settings. Forests and trusts describe how domains can relate to and share access with one another.
+
+Authentication confirms who is connecting; authorisation determines what that account is allowed to do. NTLM and Kerberos are Windows authentication methods, and their activity can appear in system and security logs. [TryHackMe: Windows Fundamentals](https://tryhackme.com/module/windows-and-active-directory-fundamentals) [TryHackMe: Active Directory Basics](https://tryhackme.com/room/winadbasics)
+
 What has made this particularly useful is connecting identity concepts with security monitoring. Authentication activity, account changes, group membership and Windows security events can provide useful information during an investigation.
 
 I have used this knowledge alongside Splunk-based monitoring exercises, looking at authentication behaviour and Windows security events. It has helped me understand why identity is such an important part of investigating suspicious activity rather than treating a login as an isolated event.
@@ -221,7 +254,31 @@ My newer Windows monitoring work has expanded this further by looking at account
 
 Networking has become increasingly important to my cybersecurity learning because network activity can provide both an attack surface and evidence during an investigation.
 
-I have studied the OSI and TCP/IP models, TCP and UDP, ports and common protocols including DNS, HTTP/HTTPS, SSH, FTP and SMTP. I have also completed Wireshark training, which helped connect the theory to actual network traffic.
+I have studied how devices use IP addresses to communicate across networks and MAC addresses to communicate on a local network. The OSI and TCP/IP models provide ways to understand how data moves through different network layers. As data is sent, each layer adds information needed for delivery; on receipt, the process is reversed. TCP and UDP serve different purposes, and ports and protocols help identify the services involved in a connection.
+
+### DNS
+
+The Domain Name System (DNS) helps devices find services by translating domain names into IP addresses. DNS names have a hierarchy, and different record types serve different purposes: A and AAAA records point to IPv4 and IPv6 addresses, CNAME records point to another name, MX records identify mail servers, and TXT records hold text used for things such as verification and email security.
+
+A DNS lookup may use a local cache, a recursive resolver, root and top-level domain servers, and the domain’s authoritative server. Time to Live (TTL) controls how long a DNS answer can be cached. Repeated or unusual DNS queries can also be useful to investigate, including possible tunnelling or beaconing.
+
+### Layer 2 and Local Network Traffic
+
+At Layer 2, devices on the same network communicate using frames and MAC addresses. Switches use MAC address tables to direct traffic, while ARP helps associate IPv4 addresses with MAC addresses on a local network. Misuse or abuse of Layer 2 mechanisms, such as ARP spoofing or MAC flooding, can affect how traffic is delivered or observed. These techniques can create risks such as traffic interception or disruption, so unusual Layer 2 activity should be investigated in context.
+
+### Network Traffic Sources and Flows
+
+Network traffic can be observed through logs, packet captures and flow statistics. Packet captures show details of individual communications, while flow data summarises connections. Endpoints such as workstations and servers generate traffic, and intermediary devices such as routers, switches, firewalls and proxies help carry or control it.
+
+Traffic entering or leaving an organisation is often called north-south traffic; traffic moving between systems inside its network is east-west traffic. Both can matter during an investigation: perimeter monitoring can show scanning or suspicious outbound connections, while internal traffic can help identify lateral movement. [TryHackMe: Network Traffic Basics](https://tryhackme.com/room/networktrafficbasics)
+
+### Network Security and Remote Access
+
+A network perimeter separates an organisation's internal systems from external networks. Firewalls apply rules to traffic, while IDS/IPS tools look for known or unusual activity. A DMZ can separate public-facing services from internal systems, and VPN gateways provide remote access. Reviewing firewall, IDS/IPS and VPN logs together can help show whether an event was an external probe, an attempted login or part of a wider incident. [TryHackMe: Network Security Essentials](https://tryhackme.com/room/networksecurityessentials)
+
+OpenVPN training also introduced how a VPN client and configuration file are used to connect to TryHackMe's isolated lab network, and how to confirm that the connection is working before accessing a lab.
+
+I have also completed Wireshark training, which helped connect the theory to actual network traffic.
 
 One of the more useful things I have taken from this is being able to look at network communication as something that can be investigated. Understanding what a protocol normally does makes unusual traffic much easier to recognise.
 
@@ -242,6 +299,12 @@ My course has introduced me to several forms of security testing, including reco
 The common principle across all of them is **authorisation and scope**. Having the ability to run a scan or test a system does not mean I am entitled to do so. Testing needs to be conducted against agreed targets and within defined boundaries.
 
 I have applied this through controlled practical learning, including Nessus vulnerability scanning, reconnaissance with Shodan and security exercises through TryHackMe. I have also studied web application security and SQL injection in controlled environments.
+
+### Privilege Escalation
+
+Privilege escalation means gaining permissions beyond those initially assigned to an account. Vertical escalation moves to a higher level of access, such as administrator; horizontal escalation gains access to another account or resource at a similar level. In a controlled Windows lab, I learned to consider how weak permissions or system settings can create opportunities for access to be misused.
+
+The defensive lesson is to give accounts only the access they need, review permissions on files and services, keep systems updated and check that security settings are applied as intended. Testing for these issues should only take place in an authorised environment.
 
 ### Metasploit Framework
 
