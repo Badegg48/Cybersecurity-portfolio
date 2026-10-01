@@ -36,6 +36,36 @@ Hands-on cybersecurity training across a range of subjects, including:
 - Metasploit
 - Attack and threat modelling
 
+### Completed TryHackMe Rooms
+
+#### Networking
+
+- What Is Networking?
+- Intro to Networking
+- Networking Concepts
+- Network Traffic Basics
+- DNS in Detail
+- Layer 2
+- Network Security Essentials
+- OpenVPN
+
+#### Windows and Active Directory
+
+- Windows Fundamentals 1–3
+- Active Directory Basics
+
+#### Privilege Escalation
+
+- Privilege Escalation
+- Windows PrivEsc
+
+#### Malware and Analysis
+
+- Malware Analysis
+- Reverse Engineering Basics
+- Steganography
+- Cryptography & Hashes
+
 Recent practical training has included:
 
 ### SOC L1 Alert Triage
@@ -384,6 +414,6 @@ Current areas of focus:
 - Building investigation and analytical skills
 - Continuing practical cybersecurity training
 - Building a portfolio of security reports and write-ups
-- Preparing for CompTIA Security+
+- Preparing for CompTIA Security+, with a target of 31 October 2026
 
 This document will be updated as new coursework, practical exercises, research and technical training are completed.
