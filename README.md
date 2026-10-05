@@ -1,33 +1,34 @@
 # Daniel Hughes
 
-Aspiring Cybersecurity Professional | Cybersecurity Student | Technical Problem Solver
+Aspiring Cybersecurity Professional | Cybersecurity Learner | IT and Operations Experience
 
 ## Start Here
 
-I am transitioning into cybersecurity after more than 15 years of experience across operations, logistics, business systems and customer service.
+I’m working towards a career in cybersecurity, bringing more than 15 years of experience in operations, logistics, business systems and customer service.
 
-I am currently studying the **NCFE Level 3 Certificate in Cyber Security Practices** while developing practical cybersecurity skills through hands-on training, security tools and independent research.
+I’ve completed the NCFE Level 3 Certificate in Cyber Security Practices course and am waiting for my work to be graded and my certificate to be issued. I’m also studying for CompTIA Security+, with a target of October 2026.
 
-My main career focus is developing towards **incident response, cybersecurity investigation, digital forensics and security monitoring**, while continuing to build broader technical knowledge across vulnerability management, networking, threat intelligence, security testing and detection.
+My main interests are incident response, security investigation, digital forensics and security monitoring. I’m continuing to build my knowledge of networking, vulnerability management, threat intelligence and detection through coursework and practical training.
 
 ### Key Areas
 
-- Incident Response & Investigation
-- Digital Forensics
-- Security Monitoring & SIEM
-- SOC Alert Triage
-- Windows Security Monitoring
-- Detection Engineering
-- Threat Intelligence & OSINT
-- Vulnerability Assessment & Management
-- Active Directory & Authentication
-- Networking & Network Security
-- Security Reporting & Documentation
-- Cybersecurity Governance & Risk
+- Incident response and investigation
+- Digital forensics fundamentals
+- Security monitoring and SIEM
+- SOC alert triage
+- Windows security monitoring
+- Threat intelligence and OSINT
+- Vulnerability assessment
+- Active Directory and authentication
+- Networking and network security
+- Security reporting and documentation
+- Cybersecurity governance and risk
 
 ### Practical Work
 
-My practical work is documented through structured reports and write-ups as I complete each project.
+My practical work is documented through reports and write-ups as I complete projects and training.
+
+My TryHackMe training includes rooms covering networking, DNS, network traffic, Layer 2, network security, VPNs, Windows Fundamentals, Active Directory, privilege escalation, malware analysis, reverse engineering, steganography, and cryptography.
 
 - [Security Reports](reports/)
 - [Write-ups](writeups/)
@@ -36,59 +37,46 @@ My practical work is documented through structured reports and write-ups as I co
 
 ## About Me
 
-I am currently studying the **NCFE Level 3 Certificate in Cyber Security Practices** and developing practical cybersecurity skills alongside my formal studies.
+Before moving towards cybersecurity, I spent more than 15 years working across operations, logistics, retail and business systems. I investigated software faults and data discrepancies, worked with IT support to reproduce issues and provide evidence, and helped colleagues use the systems they relied on.
 
-My previous career has given me more than 15 years of experience across operations, logistics, business systems and customer service. During this time I developed strong skills in investigation, problem solving, data analysis, troubleshooting, documentation and working with digital business systems.
-
-I have investigated software faults and data discrepancies, worked alongside IT support to reproduce problems and provide technical evidence, and used digital systems to identify and resolve operational issues.
-
-I am now applying those existing analytical and problem-solving skills to cybersecurity and building towards a long-term career in the sector.
+That experience developed my problem-solving, communication, data analysis and documentation skills. I’m now applying those strengths to cybersecurity while developing my technical knowledge through formal study and hands-on training.
 
 ## Core Skills
 
-### Cybersecurity
+### Cybersecurity Study and Practice
 
-- Incident response fundamentals
-- Digital forensics fundamentals
-- Security monitoring & SIEM
-- SOC alert triage
-- Windows security monitoring
-- Detection engineering fundamentals
-- Vulnerability assessment & management
-- Threat intelligence & OSINT
-- Security testing
-- Active Directory & authentication
-- Web application security
-- Cybersecurity frameworks and standards
-- UK cybersecurity legislation and ethical practice
+- Incident response and digital forensics fundamentals
+- Security monitoring, SIEM and alert triage
+- Windows security events and log investigation
+- Vulnerability assessment and security testing
+- Threat intelligence and OSINT
+- Active Directory and authentication
+- Cybersecurity frameworks, standards and UK legislation
 
-### Systems & Networking
+### Systems and Networking
 
-- Windows administration
+- Windows support and security fundamentals
 - Linux command line
-- Active Directory
-- NTLM & Kerberos
+- Active Directory fundamentals
+- NTLM and Kerberos concepts
 - Windows Event Logs
-- Authentication & authorisation
-- Process and authentication monitoring
-- Networking fundamentals
-- Common protocols and ports
+- Authentication and authorisation
+- Networking fundamentals, protocols and ports
 - HTTP and web technologies
-- Wireshark
+- Wireshark and network traffic analysis
 
-### Analysis & Investigation
+### Analysis and Investigation
 
 - Root-cause analysis
 - Data investigation and reconciliation
-- Log analysis
-- Alert investigation and triage
-- Baseline analysis
-- Anomaly identification
+- Log analysis and alert investigation
+- Baseline analysis and anomaly identification
 - Vulnerability research
-- Technical documentation
-- Security reporting
+- Technical documentation and security reporting
 
-## Security Tools & Technologies
+## Security Tools and Technologies
+
+Tools and platforms I have used or explored through coursework and controlled training:
 
 - Nessus
 - Wireshark
@@ -100,110 +88,92 @@ I am now applying those existing analytical and problem-solving skills to cybers
 - CyberChef
 - CVE resources
 - TryHackMe
-- Windows
-- Linux
+- Windows and Linux
 
-## Foundations & Training
+## Foundations and Training
 
 ### [Security Foundations](FOUNDATIONS.md)
 
-My cybersecurity knowledge base covering the concepts and lessons I have developed through study and practical work.
-
-Areas include incident response, digital forensics, security monitoring, threat intelligence, vulnerability management, networking, web security, security testing, frameworks, standards, legislation, detection engineering and security reporting.
+My cybersecurity knowledge base, covering subjects I’ve studied through coursework and practical work. It includes incident response, digital forensics, security monitoring, threat intelligence, vulnerability management, networking, web security, security testing, frameworks, standards, legislation and security reporting.
 
 ### [Training Record](TRAINING.md)
 
-A record of my formal study, practical training, hands-on exercises and independent research.
-
-This includes my NCFE Level 3 studies, TryHackMe, Wireshark, Nessus, Splunk, Active Directory, CyberChef, Metasploit Framework, Windows security monitoring, SOC alert triage, detection engineering and wider cybersecurity research.
+A record of my formal study, practical training, hands-on exercises and independent research. It includes my NCFE course and TryHackMe work in networking, Windows, Active Directory, privilege escalation, malware analysis, reverse engineering, steganography and cryptography, alongside practice with Wireshark, Nessus, Splunk, CyberChef and Metasploit.
 
 ## Security Reports
 
-The [reports](reports/) section contains structured security reports, investigations and assessments based on practical work.
+The [reports](reports/) section contains structured reports, investigations and assessments based on my practical work.
 
 Where appropriate, reports cover:
 
-- Objective
-- Scope
-- Methodology
-- Tools
+- Objective and scope
+- Methodology and tools
 - Findings
 - Risk and impact
 - Recommendations
 - Lessons learned
 
-All security testing is conducted within authorised or controlled environments.
+All security testing is carried out in authorised or controlled environments.
 
 ## Write-ups
 
-The [write-ups](writeups/) section contains shorter accounts of cybersecurity challenges and investigations.
-
-These focus on:
-
-- The problem
-- The approach taken
-- What worked and what did not
-- The reasoning behind the solution
-- The security lesson
-
-The aim is to demonstrate problem solving and investigation rather than simply documenting commands or answers.
+The [write-ups](writeups/) section contains shorter accounts of cybersecurity challenges and investigations. They explain the problem, the approach I took, what I learned and the reasoning behind the solution.
 
 ## Professional Experience
 
-Before moving into cybersecurity, I spent more than 15 years working across operations, logistics, retail and business systems.
+I have more than 15 years of experience across operations, logistics, retail and business systems.
 
-My previous experience includes:
+My previous work includes:
 
 - Investigating software faults and data discrepancies
 - Working with IT support to reproduce technical problems
-- Providing technical evidence and validating fixes
-- Managing digital stock control systems and large datasets
-- Root-cause analysis and problem solving
-- Data reconciliation and integrity investigation
+- Providing evidence and checking fixes
+- Managing digital stock-control systems and large datasets
+- Root-cause analysis and data reconciliation
 - Website and online product management
 - Team leadership and operational management
 - Customer and supplier support
 
-These experiences provide a strong foundation for analytical, investigative and documentation-focused cybersecurity work.
+## Qualifications and Professional Development
 
-## Qualifications & Professional Development
-
-### Current
+### Cybersecurity
 
 **NCFE Level 3 Certificate in Cyber Security Practices**  
-In Progress
+Course completed; awaiting grading and certificate.
 
-### Planned
+**CompTIA Security+**  
+Currently studying; target completion October 2026.
 
-**CompTIA Security+**
+### Completed Training
 
-### Professional Development
+**Foundations of Project Management** — Google via Coursera  
+Completed September 2026.
 
-- **Google Foundations of Project Management** – Completed September 2026
+**Advanced Diploma in Health and Safety** — Course Gate  
+Distinction, July 2020.
 
-### Previous Qualifications
+### Other Qualifications
 
 - OCR Level 2 Certificate for iMedia Users
-- Advanced Diploma in Health & Safety – Distinction
 - City & Guilds Level 2 Key Skills in Application of Number
 
-Further information is available in [Certifications & Qualifications](certifications/README.md).
+Further details are available in [Certifications & Qualifications](certifications/README.md).
+
+### Professional Membership Application
+
+**The Security Institute**  
+Membership application submitted; awaiting review, expected in early November 2026.
 
 ## Current Development
 
 My current focus is on:
 
-- Completing the NCFE Level 3 Certificate in Cyber Security Practices
+- Waiting for the NCFE course grading and certificate
+- Studying for CompTIA Security+, aiming to complete it by the end of October 2026
 - Developing incident response and investigation skills
-- Building digital forensics knowledge
-- Expanding security monitoring and SIEM experience
-- Developing SOC alert triage skills
-- Developing Windows security monitoring skills
-- Building detection engineering knowledge
-- Developing practical security testing skills
-- Building practical security reports and write-ups
-- Continuing hands-on cybersecurity training
-- Preparing for CompTIA Security+
+- Building digital forensics and security monitoring knowledge
+- Continuing TryHackMe training
+- Adding reports and write-ups to my portfolio
 
 ## Interests
 
